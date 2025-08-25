@@ -3,18 +3,12 @@ import "./App.css";
 import { LoadingScreen } from "./components/LoadingScreen";
 import { Navbar } from "./components/Navbar";
 import "./index.css";
-import { BrowserRouter, Route, Routes } from "react-router-dom";
-import { Home } from "./pages/Home";
-import { NotFound } from "./pages/NotFound";
-import { Toaster } from "@/components/ui/toaster";
-import React from "react";
-import ReactDOM from "react-dom/client";
-
+import { MobileMenu } from "./components/MobileMenu";
 // Removed import App from "./App";
 
 function App() {
   const [isLoaded, setIsLoaded] = useState(false);
-
+  const [menuOpen, setMenuOpen] = useState(false);
   return (
     <>
       {!isLoaded && <LoadingScreen onComplete={() => setIsLoaded(true)} />}
@@ -23,7 +17,8 @@ function App() {
           isLoaded ? "opacity-100" : "opacity-0"
         } bg-black text-gray-100`}
       >
-        <Navbar />
+        <Navbar menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
+        <MobileMenu menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
       </div>
     </>
   );
