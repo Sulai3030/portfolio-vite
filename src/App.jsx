@@ -4,11 +4,13 @@ import { LoadingScreen } from "./components/LoadingScreen";
 import { Navbar } from "./components/Navbar";
 import "./index.css";
 import { MobileMenu } from "./components/MobileMenu";
+import { Home } from "./components/sections/Home";
 // Removed import App from "./App";
 
 function App() {
   const [isLoaded, setIsLoaded] = useState(false);
   const [menuOpen, setMenuOpen] = useState(false);
+
   return (
     <>
       {!isLoaded && <LoadingScreen onComplete={() => setIsLoaded(true)} />}

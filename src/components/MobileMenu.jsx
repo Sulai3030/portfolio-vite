@@ -20,6 +20,7 @@ export const MobileMenu = ({ menuOpen, setMenuOpen }) => {
       >
         &times;
       </button>
+
       <a href="#home" className="font-mono text-xl font-bold text-white">
         //site logo//pedro<span className="text-blue-500">.tech</span>
       </a>
@@ -33,28 +34,36 @@ export const MobileMenu = ({ menuOpen, setMenuOpen }) => {
         <a
           href="#home"
           onClick={() => setMenuOpen(false)}
-          className="text-gray-300 hover:text-white transition-colors"
+          className={`text-2xl font-semibold text-white my-transform transition-transform duration-300
+          ${menuOpen ? "opacity-100 translate-y-0" : "opacity-0-y-5"}
+          `}
         >
           Home
         </a>
         <a
           href="#about"
           onClick={() => setMenuOpen(false)}
-          className="text-gray-300 hover:text-white transition-colors"
+          className={`text-2xl font-semibold text-white my-transform transition-transform duration-300
+          ${menuOpen ? "opacity-100 translate-y-0" : "opacity-0-y-5"}
+          `}
         >
           About
         </a>
         <a
           href="#projects"
           onClick={() => setMenuOpen(false)}
-          className="text-gray-300 hover:text-white transition-colors"
+          className={`text-2xl font-semibold text-white my-transform transition-transform duration-300
+          ${menuOpen ? "opacity-100 translate-y-0" : "opacity-0-y-5"}
+          `}
         >
           Projects
         </a>
         <a
           href="#contact"
           onClick={() => setMenuOpen(false)}
-          className="text-gray-300 hover:text-white transition-colors"
+          className={`text-2xl font-semibold text-white my-transform transition-transform duration-300
+          ${menuOpen ? "opacity-100 translate-y-0" : "opacity-0-y-5"}
+          `}
         >
           Contact
         </a>
