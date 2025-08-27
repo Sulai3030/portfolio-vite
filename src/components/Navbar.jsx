@@ -11,12 +11,27 @@ export const Navbar = ({ menuOpen, setMenuOpen }) => {
       <div className="max-w-5xl mx-auto px-4">
         <div className="flex justify-between items-center h-16">
           <a href="#home" className="font-mono text-xl font-bold text-white">
-            //site logo//pedro<span className="text-blue-500">.tech</span>
+            <svg
+                  className="w-10 h-10 text-gray-800 dark:text-white"
+                  aria-hidden="true"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill={0}
+                  width={24}
+                  height={24}
+                  viewBox="0 0 24 24">
+                  <path
+                    stroke="currentColor"
+                    strokeLinecap="round"
+                    strokeWidth="2"
+                    d="M5 7h14M5 12h14M5 17h14"
+            ></path>
+            </svg>
+            Sulai<span className="text-blue-500">.Sivadel</span>
           </a>
           <div
             className="w-7 h-5 relative cursor-pointer z-40 md:hidden"
             onClick={() => setMenuOpen((prev) => !prev)}
-          >
+            >
             &#9776;
           </div>
           <div className="hidden md:flex items-center space-x-8">
