@@ -6,6 +6,8 @@ import "./index.css";
 import { MobileMenu } from "./components/MobileMenu";
 import { Home } from "./components/sections/Home";
 import { About } from "./components/sections/About";
+import { Projects } from "./components/sections/Projects";
+// import { Contact } from "./components/sections/Contact";
 // Removed import App from "./App";
 
 function App() {
@@ -24,6 +26,7 @@ function App() {
         <MobileMenu menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
         <Home />
         <About />
+        <Projects />
         {/* Other sections like About, Projects, Contact would go here */}
       </div>
     </>
