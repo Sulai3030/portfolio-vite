@@ -9,19 +9,13 @@ export const About = () => {
     "TailwindCSS",
     "Svelte",
   ];
-  const backendSkills =
-  ["Node.js",
-     "Python",
-     "AWS",
-     "MongoDB",
-     "GraphQL"];
+  const backendSkills = ["Node.js", "Python", "AWS", "MongoDB", "GraphQL"];
 
   return (
     <section
       id="about"
       className="min-h-screen flex items-center justify-center py-20"
     >
-      <RevealOnScroll>
         <div className="max-w-3xl mx-auto px-4">
           <h2 className="text-3xl font-bold mb-8 bg-gradient-to-r from-blue-500 to-cyan-400 bg-clip-text text-transparent text-center">
             About Me
@@ -67,12 +61,10 @@ export const About = () => {
               <h3 className="text-xl font-bold mb-4">🏫 Education</h3>
               <ul className="list-disc list-inside text-gray-300 space-y-2">
                 <li>
-                  <strong>Fullstack Web Development Certification</strong> - Columbia University
-                  (2016)
+                  <strong>Fullstack Web Development Certification</strong> -
+                  Columbia University (2016)
                 </li>
-                <li>
-                  Relevant Coursework: Data Structures, Web Development
-                </li>
+                <li>Relevant Coursework: Data Structures, Web Development</li>
               </ul>
             </div>
             <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 transition-all">
@@ -100,7 +92,6 @@ export const About = () => {
             </div>
           </div>
         </div>
-      </RevealOnScroll>
     </section>
   );
 };

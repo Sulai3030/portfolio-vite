@@ -4,7 +4,7 @@
 //import { SkillsSection } from "../components/SkillsSection";
 //import { ProjectsSection } from "../components/ProjectsSection";
 //import { ContactSection } from "../components/ContactSection";
-
+import { RevealOnScroll } from "../RevealOnScroll";
 
 export const Home = () => {
   return (
