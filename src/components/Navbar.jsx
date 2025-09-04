@@ -2,7 +2,6 @@
 import { useEffect } from "react";
 
 export const Navbar = ({ menuOpen, setMenuOpen }) => {
-
   useEffect(() => {
     document.body.style.overflow = menuOpen ? "hidden" : "";
   }, [menuOpen]);
@@ -11,23 +10,7 @@ export const Navbar = ({ menuOpen, setMenuOpen }) => {
       <div className="max-w-5xl mx-auto px-4">
         <div className="flex justify-between items-center h-16">
           <a href="#home" className="font-mono text-xl font-bold text-white">
-            <svg
-              className="w-10 h-10 text-gray-800 dark:text-white"
-              aria-hidden="true"
-              xmlns="https://imgur.com/a/OFBCSNg.jpg"
-              fill={0}
-              width={24}
-              height={24}
-              viewBox="0 0 24 24"
-            >
-              <path
-                stroke="currentColor"
-                strokeLinecap="round"
-                strokeWidth="2"
-                d="M5 7h14M5 12h14M5 17h14"
-              ></path>
-            </svg>
-            Sulai<span className="text-blue-500">.Sivadel</span>
+            pedro<span className="text-blue-500">.tech</span>
           </a>
           <div
             className="w-7 h-5 relative cursor-pointer z-40 md:hidden"
@@ -40,28 +23,24 @@ export const Navbar = ({ menuOpen, setMenuOpen }) => {
               href="#home"
               className="text-gray-300 hover:text-white transition-colors"
             >
-              {""}
               Home
             </a>
             <a
               href="#about"
               className="text-gray-300 hover:text-white transition-colors"
             >
-              {""}
               About
             </a>
             <a
               href="#projects"
               className="text-gray-300 hover:text-white transition-colors"
             >
-              {""}
               Projects
             </a>
             <a
               href="#contact"
               className="text-gray-300 hover:text-white transition-colors"
             >
-              {""}
               Contact
             </a>
           </div>
