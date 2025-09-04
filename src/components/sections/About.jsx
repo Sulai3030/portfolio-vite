@@ -23,12 +23,22 @@ export const About = () => {
           </h2>
           <div className="rounded-xl p-8 border border-white/10 hover:-translate-y-1 transition-all">
             <p className="text-gray-300 mb-6">
-              I am a Frontend Developer who is passionate about building great user experiences. Ambitious and user-focused, I have experience working in teams as well as independently.
+              I am a Frontend Developer who is passionate about building great
+              user experiences. Ambitious and user-focused, I have experience
+              working in teams as well as independently.
             </p>
             <p className="text-gray-300 mb-6">
-              I have strong project management experience and experience delegating responsibilities to a team. A flexible and quick learner,               I am committed to constantly evolving my skillset. I try to stay abreast of ever-evolving technologies and trends in the              industry.
+              I have strong project management experience and experience
+              delegating responsibilities to a team. A flexible and quick
+              learner, I am committed to constantly evolving my skillset. I try
+              to stay abreast of ever-evolving technologies and trends in the
+              industry.
             </p>
-            <p className="text-gray-300 mb-6">  Communicative, knowledgeable and steadfast with excellent computer engineering skills. When I'm not coding, you'll find me baking delicous desserts.
+            <p className="text-gray-300 mb-6">
+              {" "}
+              Communicative, knowledgeable and steadfast with excellent computer
+              engineering skills. When I'm not coding, you'll find me baking
+              delicious desserts and doing nature photography.
             </p>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               <div className="rounded-xl p-6 hover:-translate-y-1 transition-all">
@@ -65,12 +75,11 @@ export const About = () => {
               <h3 className="text-xl font-bold mb-4">🏫 Education</h3>
               <ul className="list-disc list-inside text-gray-300 space-y-2">
                 <li>
-                  <strong>B.S. in Computer Science</strong> - XYZ University
-                  (2016-2020)
+                  <strong>Certificate, Full Stack Web Development</strong> --
+                  Columbia University, New York City, NY (2016)
                 </li>
                 <li>
-                  Relevant Coursework: Data Structures, Web Development, Cloud
-                  Computing...
+                  Master's in Fine Arts - The New School University (2009)
                 </li>
               </ul>
             </div>

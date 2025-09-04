@@ -8,6 +8,21 @@ export const Navbar = ({ menuOpen, setMenuOpen }) => {
   return (
     <nav className="fixed top-0 w-full z-40 bg-[#64001E] backdrop-blur-lg border-b border-white/10 shadow-lg">
       <div className="max-w-5xl mx-auto px-4">
+        <div className="max-w-5xl mx-auto px-4">
+          <svg
+            className="w-10 h-10 text-gray-800 dark:text-white"
+            aria-hidden="true"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 24 24"
+          >
+            <path
+              stroke="currentColor"
+              strokeLinecap="round"
+              strokeWidth="2"
+              d="M5 7h14M5 12h14M5 17h14"
+            />
+          </svg>
+        </div>
         <div className="flex justify-between items-center h-16">
           <a href="#home" className="font-mono text-xl font-bold text-[#fff]">
             Sulai<span className="text-[#fff]">.Sivadel</span>
