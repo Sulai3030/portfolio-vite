@@ -3,13 +3,13 @@ import { RevealOnScroll } from "../RevealOnScroll";
 
 export const About = () => {
   const frontendSkills = [
+    "Javascript",
     "React",
-    "Vue",
+    "VueJS",
     "TypeScript",
     "TailwindCSS",
-    "Svelte",
   ];
-  const backendSkills = ["Node.js", "Python", "AWS", "MongoDB", "GraphQL"];
+  const backendSkills = ["Node.js", "Python", "MongoDB", "GraphQL"];
 
   return (
     <section
@@ -23,8 +23,12 @@ export const About = () => {
           </h2>
           <div className="rounded-xl p-8 border border-white/10 hover:-translate-y-1 transition-all">
             <p className="text-gray-300 mb-6">
-              Passionate developer with expertise in building scalable web
-              applications and creating innovative solutions.
+              I am a Frontend Developer who is passionate about building great user experiences. Ambitious and user-focused, I have experience working in teams as well as independently.
+            </p>
+            <p className="text-gray-300 mb-6">
+              I have strong project management experience and experience delegating responsibilities to a team. A flexible and quick learner,               I am committed to constantly evolving my skillset. I try to stay abreast of ever-evolving technologies and trends in the              industry.
+            </p>
+            <p className="text-gray-300 mb-6">  Communicative, knowledgeable and steadfast with excellent computer engineering skills. When I'm not coding, you'll find me baking delicous desserts.
             </p>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               <div className="rounded-xl p-6 hover:-translate-y-1 transition-all">
