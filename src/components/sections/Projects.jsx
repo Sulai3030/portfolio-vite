@@ -134,7 +134,7 @@ export const Projects = () => {
                   New York Department of Buildings
                 </p>
                 <p className="text-sm font-bold text-leftmb-2">
-                 Technical Wiriter
+                  Technical Wiriter
                 </p>
                 <p className="text-gray-400 text-left mb-4">
                   I wrote and edited complex technical information to present it
@@ -208,7 +208,7 @@ export const Projects = () => {
                 </div>
                 <div className="flex justify-between items-center">
                   <a
-                    href="https://www.johndavidwest.com/"
+                    href="https://nymedicaidchoice.com/"
                     className="text-blue-400 hover:text-blue-300 transition-colors my-4"
                   >
                     View Project →

@@ -22,19 +22,19 @@ export const About = () => {
             About Me
           </h2>
           <div className="rounded-xl p-8 border border-white/10 hover:-translate-y-1 transition-all">
-            <p className="text-gray-300 mb-6">
+            <p className="text-gray-300 text-left mb-6 ">
               I am a Frontend Developer who is passionate about building great
               user experiences. Ambitious and user-focused, I have experience
               working in teams as well as independently.
             </p>
-            <p className="text-gray-300 mb-6">
+            <p className="text-gray-300 text-left mb-6">
               I have strong project management experience and experience
               delegating responsibilities to a team. A flexible and quick
               learner, I am committed to constantly evolving my skillset. I try
               to stay abreast of ever-evolving technologies and trends in the
               industry.
             </p>
-            <p className="text-gray-300 mb-6">
+            <p className="text-gray-300 text-left mb-6">
               {" "}
               Communicative, knowledgeable and steadfast with excellent computer
               engineering skills. When I'm not coding, you'll find me baking
@@ -73,7 +73,7 @@ export const About = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-8">
             <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 transition-all">
               <h3 className="text-xl font-bold mb-4">🏫 Education</h3>
-              <ul className="list-disc list-inside text-gray-300 space-y-2">
+              <ul className="list-disc list-inside text-gray-300 text-left space-y-2">
                 <li>
                   <strong>Certificate, Full Stack Web Development</strong> --
                   Columbia University, New York City, NY (2016)
@@ -81,29 +81,60 @@ export const About = () => {
                 <li>
                   Master's in Fine Arts - The New School University (2009)
                 </li>
+                <li>
+                  Certificate in Publishing - Emerson College, Boston, MA 2003
+                </li>
+                <li>Bachelor of Arts - Emory University, Atlanta,GA 2001
+                </li>
               </ul>
             </div>
             <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 transition-all">
               <h3 className="text-xl font-bold mb-4">💼 Work Experience</h3>
               <div className="space-y-4 text-gray-300">
-                <div>
-                  <h4 className="font-semibold">
-                    Software Engineer at ABC Corp (2020 - Present)
-                  </h4>
-                  <p>
-                    Developed and maintained microservices for cloud-based
-                    applications.
+                <div className="text-left text-lg">
+                  <h4 className="font-semibold">PartyDash.com (2019)</h4>
+                  <p className="text-sm mb-2">
+                    Front-End Design <br></br>• Developed responsive frontend
+                    design for party management app.
+                    <br />• Used CSS and HTML to create inviting website
+                    <br />
+                    Technologies used:
+                    <br /> HTML, CSS, Bootstrap, VueJs
                   </p>
                 </div>
-                <div>
-                  <h4 className="font-semibold">
-                    Intern at DEF Startups (2019)
-                  </h4>
-                  <p>
-                    Assisted in building front-end components and integration of
-                    REST APIs.
+                <div className="text-left">
+                  <h4 className="font-semibold">Webmaster - Mayapple.org</h4>
+                  <p className="text-sm mb-2">
+                    ● Updated site (Drupal 7) to include crucial information
+                    about and links to Mayapple’s program at Sarah Lawrence
+                    College
+                    <br />● Communicated foundation’s message through updates on
+                    homepage about mission, events, enrollment opportunities and
+                    scholarships.
                   </p>
                 </div>
+              </div>
+              <div className="text-left">
+                <h4 className="font-semibold">
+                  Technical Writer - Regeneron Pharmaceuticals
+                </h4>
+                <p className="text-sm mb-2">
+                  ● Developed and edited intricate technical documentation,
+                  including Runbooks and cheat sheets in plain language to
+                  facilitate communication between technical and non-technical
+                  end-users regarding standard operating procedures (SOPs)
+                  across various departments, such as IT and Laboratories.
+                  <br />
+                  ● Individually created user-facing documentation through
+                  SharePoint to ensure a seamless continuation of company
+                  operations in the event of critical issues.
+                  <br />
+                  Key Accomplishments: - Conducted comprehensive interviews with
+                  eight subject matter experts (SMEs) from each division to
+                  gather comprehensive data. - Utilized the SME-collected data
+                  to create FTP, Network, and IT Runbooks from the commencement
+                  of the project to its completion.
+                </p>
               </div>
             </div>
           </div>

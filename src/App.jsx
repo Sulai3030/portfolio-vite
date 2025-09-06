@@ -7,6 +7,7 @@ import { MobileMenu } from "./components/MobileMenu";
 import { Home } from "./components/sections/Home";
 import { About } from "./components/sections/About";
 import { Projects } from "./components/sections/Projects";
+import { Photos } from "./components/sections/Photos";
 import { Contact } from "./components/sections/Contact";
 // Removed import App from "./App";
 
@@ -27,6 +28,7 @@ function App() {
         <Home />
         <About />
         <Projects />
+        <Photos />
         <Contact />
         {/* Other sections like About, Projects, Contact would go here */}
       </div>
