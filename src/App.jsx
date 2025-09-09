@@ -9,6 +9,7 @@ import { About } from "./components/sections/About";
 import { Projects } from "./components/sections/Projects";
 //import { Gallery } from "./components/sections/Gallery.jsx";
 import { Contact } from "./components/sections/Contact";
+import { Footer } from "./components/sections/Footer";
 // Removed import App from "./App";
 
 function App() {
@@ -24,12 +25,13 @@ function App() {
         } bg-black text-gray-100`}
       >
         <Navbar menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
-       {/* <MobileMenu menuOpen={menuOpen} setMenuOpen={setMenuOpen} /> */}
+        <MobileMenu menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
         <Home />
         <About />
         <Projects />
         {/** <Gallery /> **/}
         <Contact />
+        <Footer />
         {/* Other sections like About, Projects, Contact would go here */}
       </div>
     </>

@@ -1,5 +1,5 @@
 // src/components/MobileMenu.jsx
-import { useEffect } from "react";
+//import { useEffect } from "react";
 
 export const MobileMenu = ({ menuOpen, setMenuOpen }) => {
   return (
@@ -41,6 +41,13 @@ export const MobileMenu = ({ menuOpen, setMenuOpen }) => {
         className="text-2xl font-semibold text-white my-4 transform transition-transform duration-300 hover:text-blue-500 hover:scale-110"
       >
         Projects
+      </a>
+      <a
+        href="#contact"
+        onClick={() => setMenuOpen(false)}
+        className="text-2xl font-semibold text-white my-4 transform transition-transform duration-300 hover:text-blue-500 hover:scale-110"
+      >
+        Photos
       </a>
       <a
         href="#contact"

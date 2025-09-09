@@ -6,67 +6,61 @@ export const Navbar = ({ menuOpen, setMenuOpen }) => {
     document.body.style.overflow = menuOpen ? "hidden" : "";
   }, [menuOpen]);
   return (
-    <nav className="fixed w-7xl top-0 z-40 bg-[#64001E] backdrop-blur-lg border-b border-white/10 shadow-lg">
-      <div className="max-w-auto mx-auto px-4">
-        <div className="max-w-5xl mx-auto px-4">
-          <svg
-            className="w-10 h-10 text-gray-800 dark:text-white"
-            aria-hidden="true"
-            xmlns="http://www.w3.org/2000/svg"
-            viewBox="0 0 24 24"
-          >
-            <path
-              stroke="currentColor"
-              strokeLinecap="round"
-              strokeWidth="2"
-              d="M5 7h14M5 12h14M5 17h14"
-            />
-          </svg>
-        </div>
-        <div className="flex justify-between items-center h-16">
-          <a href="#home" className="font-mono text-xl font-bold text-[#fff]">
-            Sulai<span className="text-[#fff]">.Sivadel</span>
-          </a>
-          <div
-            className="w-7 h-5 relative cursor-pointer z-40 md:hidden"
-            onClick={() => setMenuOpen((prev) => !prev)}
-          >
-            &#9776;
-          </div>
-          <div className="hidden md:flex items-center space-x-8">
-            <a
-              href="#home"
-              className="text-gray-300 hover:text-white transition-colors"
-            >
-              Home
+    <nav className="flex items-center justify-between z-40 py-3 px-4 bg-[#64001E] backdrop-blur-lg border-b border-white/10 shadow-lg">
+      <img
+        class="h-24 w-24 object-cover"
+        src="src/assets/s.jpg"
+        alt="logo"
+      ></img>
+
+        <div className="flex  items-center h-16">
+          <div className="flex items-center h-16">
+            <a href="#home" className="font-mono text-xl font-bold text-[#fff]">
+              Sulai
+              <span className="text-[#fff]">.Sivadel</span>
             </a>
-            <a
-              href="#about"
-              className="text-gray-300 hover:text-white transition-colors"
+            <div
+              className="w-7 h-5 relative cursor-pointer z-40 md:hidden"
+              onClick={() => setMenuOpen((prev) => !prev)}
             >
-              About
-            </a>
-            <a
-              href="#projects"
-              className="text-gray-300 hover:text-white transition-colors"
-            >
-              Projects
-            </a>
-            <a
-              href="#projects"
-              className="text-gray-300 hover:text-white transition-colors"
-            >
-              Photos
-            </a>
-            <a
-              href="#contact"
-              className="text-gray-300 hover:text-white transition-colors"
-            >
-              Contact
-            </a>
+              &#9776;
+            </div>
+            <div className="flex justify-between items-center h-16 grid-cols-2 gap-4 content-between space-x-64"></div>
+            <div className="hidden md:flex items-center space-x-8">
+              <a
+                href="#home"
+                className="text-gray-300 hover:text-white transition-colors"
+              >
+                Home
+              </a>
+              <a
+                href="#about"
+                className="text-gray-300 hover:text-white transition-colors"
+              >
+                About
+              </a>
+              <a
+                href="#projects"
+                className="text-gray-300 hover:text-white transition-colors"
+              >
+                Projects
+              </a>
+              <a
+                href="#photos"
+                className="text-gray-300 hover:text-white transition-colors"
+              >
+                Photos
+              </a>
+              <a
+                href="#contact"
+                className="text-gray-300 hover:text-white transition-colors"
+              >
+                Contact
+              </a>
+            </div>
           </div>
         </div>
-      </div>
+    
     </nav>
   );
 };
