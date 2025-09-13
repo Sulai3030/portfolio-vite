@@ -7,7 +7,8 @@ import { MobileMenu } from "./components/MobileMenu";
 import { Home } from "./components/sections/Home";
 import { About } from "./components/sections/About";
 import { Projects } from "./components/sections/Projects";
-//import { Gallery } from "./components/sections/Gallery.jsx";
+import { Gallery } from "./components/sections/Gallery.jsx";
+import { GridGallery } from "./components/sections/GridGallery.jsx";
 import { Contact } from "./components/sections/Contact";
 import { Footer } from "./components/sections/Footer";
 // Removed import App from "./App";
@@ -29,7 +30,7 @@ function App() {
         <Home />
         <About />
         <Projects />
-        {/** <Gallery /> **/}
+        <Gallery />
         <Contact />
         <Footer />
         {/* Other sections like About, Projects, Contact would go here */}
