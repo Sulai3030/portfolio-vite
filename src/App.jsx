@@ -7,11 +7,10 @@ import { MobileMenu } from "./components/MobileMenu";
 import { Home } from "./components/sections/Home";
 import { About } from "./components/sections/About";
 import { Projects } from "./components/sections/Projects";
-import { Gallery } from "./components/sections/Gallery.jsx";
-import { GridGallery } from "./components/sections/GridGallery.jsx";
+import { Photos } from "./components/sections/Photos";
 import { Contact } from "./components/sections/Contact";
 import { Footer } from "./components/sections/Footer";
-// Removed import App from "./App";
+
 
 function App() {
   const [isLoaded, setIsLoaded] = useState(false);
@@ -24,16 +23,15 @@ function App() {
         className={`min-h-screen transition-opacity duration-700 ${
           isLoaded ? "opacity-100" : "opacity-0"
         } bg-black text-gray-100`}
-      >
+        >
         <Navbar menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
         <MobileMenu menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
         <Home />
         <About />
         <Projects />
-        <Gallery />
+        <Photos />
         <Contact />
         <Footer />
-        {/* Other sections like About, Projects, Contact would go here */}
       </div>
     </>
   );
