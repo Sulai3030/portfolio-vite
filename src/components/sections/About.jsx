@@ -84,8 +84,7 @@ export const About = () => {
                 <li>
                   Certificate in Publishing - Emerson College, Boston, MA 2003
                 </li>
-                <li>Bachelor of Arts - Emory University, Atlanta,GA 2001
-                </li>
+                <li>Bachelor of Arts - Emory University, Atlanta,GA 2001</li>
               </ul>
             </div>
             <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 transition-all">
