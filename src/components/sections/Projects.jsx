@@ -15,6 +15,9 @@ export const Projects = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition">
               <h3 className="text-xl font-bold mb-2">PartyDash.com</h3>
+              <p className="text-sm font-bold text-leftmb-2">
+                Frontend Engineer
+              </p>
               <p className="text-gray-400 text-left mb-4">
                 I designed the customer interface of a website that delivers
                 ready-made birthday parties.
@@ -42,11 +45,15 @@ export const Projects = () => {
             </div>
             <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_4px_20px_rgba(59,130,246,0.1)] transition">
               <h3 className="text-xl font-bold text-leftmb-2">
-                <a href="https://www.johndavidwest.com/">John David West: Social Media + Photography</a>
+                <a href="https://www.johndavidwest.com/">
+                  John David West: Social Media + Photography
+                </a>
               </h3>
+              <p className="text-sm font-bold text-leftmb-2">
+                Fullstack Engineer
+              </p>
               <p className="text-gray-400 text-left mb-4">
-                John David West: Social Media + Photography
-                John David West is a
+                John David West: Social Media + Photography John David West is a
                 dynamic Social Media Manager and Photographer who thrives on the
                 art of content creation and eight years of experience in social
                 media management, social strategy, and campaign execution that
@@ -73,9 +80,10 @@ export const Projects = () => {
               </div>
             </div>
             <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_4px_20px_rgba(59,130,246,0.1)] transition">
-              <h3 className="text-xl font-bold mb-2">
+              <h3 className="text-lg font-bold mb-2">
                 Mayapple Center for the Arts and Humanities
               </h3>
+              <p className="text-sm font-bold text-leftmb-2">Webmaster</p>
               <p className="text-gray-400 mb-4 text-left">
                 Updated the site to include essential information about
                 Mayapple’s program at Sarah Lawrence College, including links to
@@ -104,9 +112,12 @@ export const Projects = () => {
             </div>
             <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_4px_20px_rgba(59,130,246,0.1)] transition">
               <h3 className="text-xl font-bold mb-2">
-                Regeneron - Technical Writer
+                Regeneron Pharmaceuticals, Inc.
               </h3>
-              <p className="text-gray-400 mb-4 text-left"></p>
+              <p className="text-sm font-bold text-leftmb-2">
+                Technical Writer
+              </p>
+              <p className="text-gray-400 text-left mb-4">Some of my work is under an NDA.</p>
               <div className="flex flex-wrap gap-2 mb-4">
                 {["Sharepoint", "MS Word"].map((tech, key) => (
                   <span

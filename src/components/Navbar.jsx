@@ -8,13 +8,14 @@ export const Navbar = ({ menuOpen, setMenuOpen }) => {
 
 
   return (
-    <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4 bg-[#64001E]">
+    <header className="flex items-center justify-between px-4 mx-auto py-3 bg-[#64001E] sticky top-0 z-30">
+      <div>
       <img
         class="h-24 w-24 object-cover"
         src="src/assets/s.jpg"
         alt="logo"
       ></img>
-
+      </div>
       <div
         className="w-7 h-5 relative cursor-pointer z-40 md:hidden"
         onClick={() => setMenuOpen((prev) => !prev)}
@@ -53,6 +54,6 @@ export const Navbar = ({ menuOpen, setMenuOpen }) => {
           Contact
         </a>
       </div>
-    </div>
+    </header>
   );
 };

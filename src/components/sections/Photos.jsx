@@ -5,15 +5,21 @@ export const Photos = () => {
       className="min-h-screen flex flex-col items-center justify-center relative"
     >
       <div className="text-center z-10 px-4 grid grid-cols-2 gap-1">
-        <h1 classsName="text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-blue-500 to-purple-600 leading-right">
-          Please enjoy some of my photos!
+        <h1 className="text-base md:text-3xl mb-3 p-24 bg-gradient-to-r from-blue-500 to-purple-600 leading-right">
+          <a
+            href="https://www.instagram.com/sulai3030/"
+            className="hover:underline"
+          >
+            Please enjoy some of my photos!
+          </a>
         </h1>
         <div className="object-cover">
-        <img src="src/assets/54446266337_930e366f33_c.jpg"
-             alt="Gallery Image 1"
-             className="w-full h-auto rounded-lg shadow-lg"
-             object-cover
-        />
+          <img
+            src="/src/assets/horsecloud.JPG"
+            alt="Gallery Image 1"
+            className="w-full h-auto rounded-lg shadow-lg"
+            object-cover
+          />
         </div>
         <img
           src="src/assets/54487597069_aaa4ce8560_c.jpg"
@@ -21,7 +27,8 @@ export const Photos = () => {
           className="w-full h-auto rounded-lg shadow-lg"
         />
         <img
-          src="src/assets/54447368223_12e6553954_c.jpg"
+          src="src/assets/54487674233_de3d1278f0_c.jpg
+          "
           alt="Gallery Image 3"
           className="w-full h-auto rounded-lg shadow-lg"
         />

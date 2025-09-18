@@ -127,12 +127,6 @@ export const About = () => {
                   ● Individually created user-facing documentation through
                   SharePoint to ensure a seamless continuation of company
                   operations in the event of critical issues.
-                  <br />
-                  Key Accomplishments: - Conducted comprehensive interviews with
-                  eight subject matter experts (SMEs) from each division to
-                  gather comprehensive data. - Utilized the SME-collected data
-                  to create FTP, Network, and IT Runbooks from the commencement
-                  of the project to its completion.
                 </p>
               </div>
             </div>
