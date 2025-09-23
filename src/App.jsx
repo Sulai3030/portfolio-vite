@@ -10,6 +10,7 @@ import { Projects } from "./components/sections/Projects";
 import { Photos } from "./components/sections/Photos";
 import { Contact } from "./components/sections/Contact";
 import { Footer } from "./components/sections/Footer";
+import Services from "./components/sections/Services";
 
 
 function App() {
@@ -23,11 +24,12 @@ function App() {
         className={`min-h-screen transition-opacity duration-700 ${
           isLoaded ? "opacity-100" : "opacity-0"
         } bg-black text-gray-100`}
-        >
+      >
         <Navbar menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
         <MobileMenu menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
         <Home />
         <About />
+        <Services />
         <Projects />
         <Photos />
         <Contact />
