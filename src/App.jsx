@@ -11,6 +11,7 @@ import { Photos } from "./components/sections/Photos";
 import { Contact } from "./components/sections/Contact";
 import { Footer } from "./components/sections/Footer";
 import Services from "./components/sections/Services";
+import Blog from "./components/sections/Blog";
 
 
 function App() {
@@ -29,9 +30,10 @@ function App() {
         <MobileMenu menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
         <Home />
         <About />
-        <Services />
         <Projects />
+        <Services />
         <Photos />
+        <Blog />
         <Contact />
         <Footer />
       </div>

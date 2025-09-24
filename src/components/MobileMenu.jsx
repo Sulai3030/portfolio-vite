@@ -50,6 +50,13 @@ export const MobileMenu = ({ menuOpen, setMenuOpen }) => {
         Photos
       </a>
       <a
+        href="#blog"
+        onClick={() => setMenuOpen(false)}
+        className="text-2xl font-semibold text-white my-4 transform transition-transform duration-300 hover:text-blue-500 hover:scale-110"
+      >
+        Blog
+      </a>
+      <a
         href="#contact"
         onClick={() => setMenuOpen(false)}
         className="text-2xl font-semibold text-white my-4 transform transition-transform duration-300 hover:text-blue-500 hover:scale-110"

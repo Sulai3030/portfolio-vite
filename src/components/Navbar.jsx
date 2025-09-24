@@ -10,11 +10,11 @@ export const Navbar = ({ menuOpen, setMenuOpen }) => {
   return (
     <header className="flex items-center justify-between px-4 mx-auto py-3 bg-[#64001E] sticky top-0 z-30">
       <div>
-      <img
-        class="h-24 w-24 object-cover"
-        src="src/assets/s.jpg"
-        alt="logo"
-      ></img>
+        <img
+          class="h-24 w-24 object-cover"
+          src="src/assets/s.jpg"
+          alt="logo"
+        ></img>
       </div>
       <div
         className="w-7 h-5 relative cursor-pointer z-40 md:hidden"
@@ -46,6 +46,12 @@ export const Navbar = ({ menuOpen, setMenuOpen }) => {
           className="text-gray-300 hover:text-white transition-colors"
         >
           Photos
+        </a>
+        <a
+          href="#blog"
+          className="text-gray-300 hover:text-white transition-colors"
+        >
+          Blog
         </a>
         <a
           href="#contact"

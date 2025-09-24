@@ -41,7 +41,7 @@ const Services = () => {
               Below are links to satisfied customers copywriting and content
               writing:
             </h2>
-            <p className="text-1xl text-gray-300 text-left mb-6 no-underline">
+            <p className="text-1xl font-bold mb-8 bg-gradient-to-r from-blue-500 to-[#71D7F5] bg-clip-text text-transparent text-left">
               Healthcare Copy Writing:
             </p>
             <p className="text-1xl text-gray-300 text-left mb-6 no-underline hover:underline">
@@ -80,7 +80,7 @@ const Services = () => {
                 </li>
               </ul>
             </p>
-            <p className="text-1xl text-gray-300 text-left mb-6 no-underline">
+            <p className="text-1xl font-bold mb-8 bg-gradient-to-r from-blue-500 to-[#71D7F5] bg-clip-text text-transparent text-left">
               Health Policy Writing and Reporting:
             </p>
             <p className="text-1xl text-gray-300 text-left mb-6">
@@ -98,7 +98,7 @@ const Services = () => {
                 </a>
               </li>
             </p>
-            <p className="text-1xl text-gray-300 text-left mb-6 no-underline">
+            <p className="text-1xl font-bold mb-8 bg-gradient-to-r from-blue-500 to-[#71D7F5] bg-clip-text text-transparent text-left">
               Technical Writing
             </p>
             <p className="text-1xl text-gray-300 text-left mb-6">
@@ -115,7 +115,7 @@ const Services = () => {
                 </a>
               </li>
             </p>
-            <p className="text-1xl text-gray-300 text-left mb-6 no-underline">
+            <p className="text-1xl font-bold mb-8 bg-gradient-to-r from-blue-500 to-[#71D7F5] bg-clip-text text-transparent text-left">
               Film Reporting and Criticism
             </p>
             <p className="text-1xl text-gray-300 text-left mb-6">
@@ -127,8 +127,8 @@ const Services = () => {
                 >
                   Screenrant.com
                 </a>
-                </li>
-                <li>
+              </li>
+              <li>
                 <a
                   href="https://thescriptlab.com/features/main/reviews-2/tv-reviews/2387-burn-notice-series-finale/"
                   className="hover:underline"
