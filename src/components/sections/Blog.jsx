@@ -17,7 +17,7 @@ const ReadMore = () => {
 
   return (
     <>
-      <div className="bg-[#00010c] h-screen flex items-left justify-center">
+      <div className="bg-[#00010c] h-screen flex items-left justify-center text-left">
         <div className="bg-black p-7 w-5/6">
           <p>{shownContent}</p>
           <button
