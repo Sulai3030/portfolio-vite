@@ -11,7 +11,7 @@ import { Photos } from "./components/sections/Photos";
 import { Contact } from "./components/sections/Contact";
 import { Footer } from "./components/sections/Footer";
 import Services from "./components/sections/Services";
-import Blog from "./components/sections/Blog";
+import Blog from "./components/sections/Blog.jsx";
 
 
 function App() {
