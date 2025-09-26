@@ -1,5 +1,5 @@
 import React from 'react';
-import { useState } from "react";
+//import { useState } from "react";
 import { RevealOnScroll } from "../RevealOnScroll";
 
 
@@ -24,28 +24,27 @@ const Services = () => {
             alt="code snippet"
           />
           <div className="rounded-xl p-8 border border-white/10 hover:-translate-y-1 transition-all">
-            <p class="text-gray-300 text-left mb-6 ">
-              <div>My services include:</div>
-              <ul className="list-disc list-inside">
-                <li>Website Development</li>
-                <li>Health and Wellness Writing</li>
-                <li>Healthcare Policy Writing and Reporting</li>
-                <li>Technical Writing</li>
-                <li>Film and Television Criticism, Reporting, and Analysis</li>
-              </ul>
-            </p>
+            <div>My services include:</div>
+            <ol className="list-disc list-inside text-left">
+              <li>Website Development</li>
+              <li>Health and Wellness Writing</li>
+              <li>Healthcare Policy Writing and Reporting</li>
+              <li>Technical Writing</li>
+              <li>Film and Television Criticism, Reporting, and Analysis</li>
+            </ol>
           </div>
-          <div></div>
+          <br />
           <div className="max-w-3xl mx-auto px-4 space-y-4 mt-8">
             <h2 className="text-2xl font-bold mb-8 bg-gradient-to-r from-blue-600 to-[#71D7F5] bg-clip-text text-transparent text-center">
-              Below are links to satisfied customers copywriting and content
-              writing:
+              Below are links to satisfied customers of my copywriting and
+              content creation services:
             </h2>
             <p className="text-1xl font-bold mb-8 bg-gradient-to-r from-blue-500 to-[#71D7F5] bg-clip-text text-transparent text-left">
               Healthcare Copy Writing:
             </p>
-            <p className="text-1xl text-gray-300 text-left mb-6 no-underline hover:underline">
-              <ul className="list-disc list-inside text-left">
+            <p className="text-1xl text-gray-300 text-left mb-6 no-underline hover:underline break-all ...">
+            <br />
+            <ul className="list-disc list-inside text-left">
                 <li>
                   <a href="https://blackhealthmatters.com/lauren-lee-talks-kidney-disease-breakthroughs/">
                     Lauren Lee talks kidney disease breakthroughs

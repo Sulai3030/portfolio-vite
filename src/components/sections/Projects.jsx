@@ -37,9 +37,7 @@ export const Projects = () => {
                   href="https://web.archive.org/web/20220707140808/https://partydash.com/"
                   className="text-blue-400 hover:text-blue-300 transition-colors my-4"
                 >
-                  <a href="https://web.archive.org/web/20220707140808/https://partydash.com/">
-                    View Project →
-                  </a>
+                  View Project →
                 </a>
               </div>
             </div>
@@ -117,7 +115,9 @@ export const Projects = () => {
               <p className="text-sm font-bold text-leftmb-2">
                 Technical Writer
               </p>
-              <p className="text-gray-400 text-left mb-4">Some of my work is under an NDA.</p>
+              <p className="text-gray-400 text-left mb-4">
+                Some of my work is under an NDA.
+              </p>
               <div className="flex flex-wrap gap-2 mb-4">
                 {["Sharepoint", "MS Word"].map((tech, key) => (
                   <span
@@ -166,42 +166,37 @@ export const Projects = () => {
                     </span>
                   ))}
                 </div>
-                <div className="flex justify-between items-center">
-                  <a
-                    href="https://www1.nyc.gov/site/buildings/index.page"
-                    className="text-blue-400 hover:text-blue-300 transition-colors my-4"
-                  >
+                <div className="flex justify-between items-center text-blue-400 hover:text-blue-300 transition-colors my-4">
                     <a href="https://www1.nyc.gov/site/buildings/index.page">
                       View Project →
                     </a>
-                  </a>
                 </div>
               </div>
               <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_4px_20px_rgba(59,130,246,0.1)] transition">
-                <p class="text-xl font-bold text-center mb-2">Maximus</p>
+                <p className="text-xl font-bold text-center mb-2">Maximus</p>
                 <p className="text-sm font-bold text-leftmb-2">
                   Assistant Editor - Website QA
                 </p>
                 <p className="text-gray-400 text-left mb-4">
-                  <li class="list-disc">
+                  <li className="list-disc">
                     Translated legal team communications into easily
                     understandable materials for the general public.
                   </li>
-                  <li class="list-disc">
+                  <li className="list-disc">
                     Performed quality assurance on the New York Medicaid Choice
                     website to prevent new errors. Copywrote internal and
                     external communications materials to promote and support
                     executive managers.{" "}
                   </li>
-                  <li class="list-disc">
+                  <li className="list-disc">
                     Performed quality assurance on the New York Medicaid Choice
                     website to prevent new errors.{" "}
                   </li>
-                  <li class="list-disc">
+                  <li className="list-disc">
                     Copywrote internal and external communications materials to
                     promote and support executive managers.
                   </li>
-                  <li class="list-disc">
+                  <li className="list-disc">
                     Managed professional recording sessions with Native speakers
                     of six languages to create new plan material that could be
                     easily understood by hearing and developmentally-impaired

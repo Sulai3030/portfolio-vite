@@ -11,7 +11,7 @@ export const Navbar = ({ menuOpen, setMenuOpen }) => {
     <header className="flex items-center justify-between px-4 mx-auto py-3 bg-[#64001E] sticky top-0 z-30">
       <div>
         <img
-          class="h-24 w-24 object-cover"
+          className="h-24 w-24 object-cover"
           src="src/assets/s.jpg"
           alt="logo"
         ></img>
