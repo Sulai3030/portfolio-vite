@@ -48,7 +48,7 @@ export const Navbar = ({ menuOpen, setMenuOpen }) => {
           Photos
         </a>
         <a
-          href="#Blog"
+          href="#blog"
           className="text-gray-300 hover:text-white transition-colors"
         >
           Blog
