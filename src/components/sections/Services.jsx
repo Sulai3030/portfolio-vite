@@ -30,6 +30,7 @@ const Services = () => {
               <li>Health and Wellness Writing</li>
               <li>Healthcare Policy Writing and Reporting</li>
               <li>Technical Writing</li>
+              <li>Educational Writing</li>
               <li>Film and Television Criticism, Reporting, and Analysis</li>
             </ol>
           </div>
@@ -43,8 +44,8 @@ const Services = () => {
               Healthcare Copy Writing:
             </p>
             <p className="text-1xl text-gray-300 text-left mb-6 no-underline hover:underline break-all ...">
-            <br />
-            <ul className="list-disc list-inside text-left">
+              <br />
+              <ul className="list-disc list-inside text-left">
                 <li>
                   <a href="https://blackhealthmatters.com/lauren-lee-talks-kidney-disease-breakthroughs/">
                     Lauren Lee talks kidney disease breakthroughs
@@ -111,6 +112,20 @@ const Services = () => {
                   className="hover:underline"
                 >
                   New York Department of Buildings
+                </a>
+              </li>
+            </p>
+            <p className="text-1xl font-bold mb-8 bg-gradient-to-r from-blue-500 to-[#71D7F5] bg-clip-text text-transparent text-left">
+              Educational Writing
+            </p>
+            <p className="text-1xl text-gray-300 text-left mb-6">
+              I have written in the education space as well.
+              <li>
+                <a
+                  href="https://www.princetonreview.com/law-school-advice/strategies-to-succeed-in-law-school"
+                  className="hover:underline"
+                >
+                  The Princeton Review: Strategies to Succeed in Law School
                 </a>
               </li>
             </p>

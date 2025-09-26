@@ -35,19 +35,27 @@ The Square is streaming exclusively on Netflix and is still in theaters.
 
   return (
     <>
-     <div className="bg-black h-screen flex items-center justify-center">
-      <div className="p-7 w-5/6">
-        <h2 className="text-2xl font-bold mb-4">Blog and Writing Samples</h2>
-        <p className="text-left">{ shownContent }</p>
-        <button className="mt-3 bg-blue-600 text-white py-2
-        px-4 rounded hover:bg-blue-600" onClick=
-        {toggleExpansion} >
-          {
-            isExpanded ? 'Read Less' : 'Read More'
-          }
-        </button>
-      </div>
-     </div>
-   </>
-  )};
-  export default Blog;
+      <section
+        id="blog"
+        className="min-h-screen flex items-center justify-center py-20"
+      >
+        <div className="bg-black h-screen flex items-center justify-center">
+          <div className="p-7 w-5/6">
+            <h2 className="text-3xl font-bold mb-8 bg-gradient-to-r from-blue-600 to-[#71D7F5] bg-clip-text text-transparent text-center">
+              Blog and Writing Samples
+            </h2>
+            <p className="text-left">{shownContent}</p>
+            <button
+              className="mt-3 bg-blue-600 text-white py-2
+        px-4 rounded hover:bg-blue-600"
+              onClick={toggleExpansion}
+            >
+              {isExpanded ? "Read Less" : "Read More"}
+            </button>
+          </div>
+        </div>
+      </section>
+    </>
+  );
+};
+export default Blog;
