@@ -1,30 +1,25 @@
-// src/components/Navbar.jsx
 import { useEffect } from "react";
-import Image from "next/image";
-import { ReactComponent as MyIcon } from "./assets/my-icon.svg";
 
 export const Navbar = ({ menuOpen, setMenuOpen }) => {
   useEffect(() => {
     document.body.style.overflow = menuOpen ? "hidden" : "";
   }, [menuOpen]);
+  return (
+    <nav className="fixed top-0 w-full z-40 bg-[rgba(10, 10, 10, 0.8)] backdrop-blur-lg border-b border-white/10 shadow-lg">
+      <div className="max-w-5xl mx-auto px-4">
+        <div className="flex justify-between items-center h-16">
+          <a href="#home" className="font-mono text-xl font-bold text-white">
+            {" "}
+            pedro<span className="text-blue-500">.tech</span>{" "}
+          </a>
 
-  function App() {
-    return (
-      <header className="flex items-center justify-between px-4 mx-auto py-3 bg-[#64001E] sticky top-0 z-30">
-        <MyIcon className="w-6 h-6 text-blue-500" />;
-        <div>
-          <Image
-            className="h-24 w-24 object-cover"
-            src="/public/file4.png"
-            alt="logo"
-          ></Image>
-        </div>
-        <div
-          className="w-7 h-5 relative cursor-pointer z-40 md:hidden"
-          onClick={() => setMenuOpen((prev) => !prev)}
-        >
-          &#9776;
-        </div>
+          <div
+            className="w-7 h-5 relative cursor-pointer z-40 md:hidden"
+            onClick={() => setMenuOpen((prev) => !prev)}
+          >
+            &#9776;
+          </div>
+
         <div className="hidden md:flex items-center space-x-8">
           <a
             href="#home"
@@ -63,7 +58,8 @@ export const Navbar = ({ menuOpen, setMenuOpen }) => {
             Contact
           </a>
         </div>
-      </header>
+      </div>
+      </div>
+    </nav>
     );
-  }
 }
