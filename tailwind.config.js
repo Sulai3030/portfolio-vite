@@ -1,8 +1,11 @@
-/** @type {import('tailwindcss').Config} */
-module.exports = {
-  content: ["./index.html", "./src/**/*.{js,jsx,ts,tsx}"],
-  theme: {
-    extend: {},
-  },
-  plugins: [],
-};
+import { defineConfig } from "vite";
+import react from "@vitejs/plugin-react-swc";
+
+export default defineConfig({
+  plugins: [
+    react({
+      // Add this line to enable importing SVGs as React components
+      svgr: true,
+    }),
+  ],
+});
