@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 
 export const Photos = () => {
   return (
@@ -19,33 +20,44 @@ export const Photos = () => {
           <img
             src="/src/assets/horsecloud.JPG"
             alt="Gallery Image 1"
+            width={300}
+            height={200}
             className="w-full h-auto rounded-lg shadow-lg"
             object-cover="true object-cover h-48 w-full"
           />
         </div>
         <img
           src="src/assets/54487597069_aaa4ce8560_c.jpg"
-          alt="Gallery Image 2"
-          className="w-full h-auto rounded-lg shadow-lg"
-          object-cover="true object-cover h-48 w-full"
+          alt="Gallery Image 1"
+            width={300}
+            height={200}
+            className="w-full h-auto rounded-lg shadow-lg"
+            object-cover="true object-cover h-48 w-full"
         />
         <img
           src="src/assets/54487674233_de3d1278f0_c.jpg
           "
-          alt="Gallery Image 3"
-          className="w-full h-auto rounded-lg shadow-lg"
-          object-cover="true object-cover h-48 w-full"
+          alt="Gallery Image 1"
+            width={300}
+            height={200}
+            className="w-full h-auto rounded-lg shadow-lg"
+            object-cover="true object-cover h-48 w-full"
         />
         <img
           src="/src/assets/54484194432_b38c16ac61_c.jpg"
-          alt="Gallery Image 4"
-          className="w-full h-auto rounded-lg shadow-lg"
+          alt="Gallery Image 1"
+            width={300}
+            height={200}
+            className="w-full h-auto rounded-lg shadow-lg"
+            object-cover="true object-cover h-48 w-full"
         />
         <img
           src="src/assets/54487398471_77ef349fb6_c.jpg"
-          alt="Gallery Image 5"
-          className="w-full h-auto rounded-lg shadow-lg"
-          object-cover="true object-cover h-48 w-full"
+          alt="Gallery Image 1"
+            width={300}
+            height={200}
+            className="w-full h-auto rounded-lg shadow-lg"
+            object-cover="true object-cover h-48 w-full"
         />
       </div>
     </section>

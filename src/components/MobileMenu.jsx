@@ -1,11 +1,11 @@
-// src/components/MobileMenu.jsx
-//import { useEffect } from "react";
+//import {MobileMenu} from "src/components/MobileMenu.jsx";
+import { useEffect } from "react";
 
 export const MobileMenu = ({ menuOpen, setMenuOpen }) => {
   return (
     <div
       className={`
-        fixed top-0 left-0 w-full bg-[rgba(10,10,10,0.8)] z-40 flex flex-col items-center justify-center
+        fixed top-0 left-0 w-full bg-[rgba(10,10,10,0.8)] z-40 flex flex-col items-center max-w-screen-xl  flex-wrap justify-between mx-auto p-4
         transition-all duration-300 ease-in-out
         ${
           menuOpen
@@ -16,7 +16,7 @@ export const MobileMenu = ({ menuOpen, setMenuOpen }) => {
     >
       <button
         onClick={() => setMenuOpen(false)}
-        className="absolute top-6 right-6 text-white text-3xl focus:outline-none cursor-pointer"
+        className="absolute top-6 right-4 text-white text-3xl focus:outline-none cursor-pointer"
         aria-label="Close Menu"
       >
         &times;

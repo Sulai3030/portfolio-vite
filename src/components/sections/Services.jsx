@@ -20,8 +20,10 @@ const Services = () => {
           </p>
           <img
             className="h-48 w-full object-cover"
-            src="src/assets/codesnipppet.jpg"
+            src="public/codesnipppet.jpg"
             alt="code snippet"
+            width={300}
+            height={200}
           />
           <div className="rounded-xl p-8 border border-white/10 hover:-translate-y-1 transition-all">
             <div>My services include:</div>
