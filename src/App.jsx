@@ -7,12 +7,11 @@ import { MobileMenu } from "./components/MobileMenu";
 import { Home } from "./components/sections/Home";
 import { About } from "./components/sections/About";
 import { Projects } from "./components/sections/Projects";
-import { Photos } from "./components/sections/Photos";
+//import { Photos } from "./components/sections/Photos.jsx";
 import { Contact } from "./components/sections/Contact";
 import { Footer } from "./components/sections/Footer";
 import Services from "./components/sections/Services";
 import Blog from "./components/sections/Blog";
-
 
 function App() {
   const [isLoaded, setIsLoaded] = useState(false);
@@ -32,7 +31,7 @@ function App() {
         <About />
         <Projects />
         <Services />
-        <Photos />
+        {/* <Photos /> */}
         <Blog />
         <Contact />
         <Footer />

@@ -1,23 +1,18 @@
 import { useEffect } from "react";
-import { useState } from "react";
-import Logo from "/public/s.png";
-
-
+//
 export const Navbar = ({ menuOpen, setMenuOpen }) => {
   useEffect(() => {
     document.body.style.overflow = menuOpen ? "hidden" : "";
   }, [menuOpen]);
+
+
   return (
-    <nav className="fixed top-0 w-full z-40 bg-[#801307] backdrop-blur-lg border-b border-white/10 shadow-lg">
-      <div className="max-w-5xl mx-auto px-4">
+    <nav>
+      <div className="max-w-5xl mx-auto px-4 bg-[#ef1456]">
         <div className="flex justify-between items-center h-16">
-          <img src={Logo} className="object-fit: scale-down; h-12" />
           <a href="#home" className="font-mono text-xl font-bold text-white">
             {" "}
-            Sulai
-            <span className="bg-blue-500 text-white py-3 px-6 rounded font-medium transition relative overflow-hidden hover:-translate-y-0.5 hover:shadow-[0_0_15px_rgba(59,130,246,0.4)]">
-              .Sivadel
-            </span>{" "}
+            Sulai<span className="text-{#2d81ff}">.Sivadel</span>{" "}
           </a>
           <div className="bg-[url('public/s.png')] h-screen bg-no-repeat style background-size: cover;"></div>
           <div

@@ -1,65 +1,46 @@
-import React from "react";
-import Image from "next/image";
+// src/components/sections/Home.jsx
+import { RevealOnScroll } from "../RevealOnScroll";
 
-export const Photos = () => {
+export const Home = () => {
   return (
     <section
-      id="photos"
-      className="min-h-screen flex flex-col items-center justify-center relative"
+      id="home"
+      className="min-h-screen flex items-center justify-center relative"
     >
-      <div className="text-center z-10 px-4 grid grid-cols-2 gap-1">
-        <h1 className="text-base md:text-3xl mb-3 p-24 bg-gradient-to-r from-blue-500 to-purple-600 leading-right rounded-lg">
-          <a
-            href="https://www.instagram.com/sulai3030/"
-            className="hover:underline"
-          >
-            Please enjoy some of my photos!
-          </a>
-        </h1>
-        <div className="">
-          <img
-            src="/src/assets/horsecloud.JPG"
-            alt="Gallery Image 1"
-            width={300}
-            height={200}
-            className="w-full h-auto rounded-lg shadow-lg"
-            object-cover="true object-cover h-48 w-full"
-          />
+      <RevealOnScroll>
+        <div className="text-left z-10 px-4">
+          <div className="flex justify-center mb-6"></div>
+            <img
+              src="src/assets/Logo2.svg"
+              alt="Logo"
+              className="w-32 h-32 md:w-40 md:h-40"
+            />
+            <h5>boy</h5>
+          </div>
+          <h1 className="text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-blue-500 to-[#71D7F5] bg-clip-text text-transparent leading-right">
+            Hi, I'm Sulai
+          </h1>
+          <p className="text-gray-400 text-lg mb-8 max-w-lg mx-auto">
+            I’m a full-stack developer who loves crafting clean, scalable web
+            applications. My goal is to build solutions that offer both
+            exceptional performance and a delightful user experience.
+          </p>
+          <div className="flex justify-center space-x-4">
+            <a
+              href="#projects"
+              className="bg-blue-500 text-white py-3 px-6 rounded font-medium transition relative overflow-hidden hover:-translate-y-0.5 hover:shadow-[0_0_15px_rgba(59,130,246,0.4)]"
+            >
+              View Projects
+            </a>
+            <a
+              href="#contact"
+              className="border border-blue-500/50 text-blue-500 py-3 px-6 rounded font-medium transition-all duration-200 hover:-translate-y-0.5 hover:shadow-[0_0_15px_rgba(59,130,246,0.2)], hoverbg-blue-500/10)]"
+            >
+              Contact Me
+            </a>
+          </div>
         </div>
-        <img
-          src="src/assets/54487597069_aaa4ce8560_c.jpg"
-          alt="Gallery Image 1"
-            width={300}
-            height={200}
-            className="w-full h-auto rounded-lg shadow-lg"
-            object-cover="true object-cover h-48 w-full"
-        />
-        <img
-          src="src/assets/54487674233_de3d1278f0_c.jpg
-          "
-          alt="Gallery Image 1"
-            width={300}
-            height={200}
-            className="w-full h-auto rounded-lg shadow-lg"
-            object-cover="true object-cover h-48 w-full"
-        />
-        <img
-          src="/src/assets/54484194432_b38c16ac61_c.jpg"
-          alt="Gallery Image 1"
-            width={300}
-            height={200}
-            className="w-full h-auto rounded-lg shadow-lg"
-            object-cover="true object-cover h-48 w-full"
-        />
-        <img
-          src="src/assets/54487398471_77ef349fb6_c.jpg"
-          alt="Gallery Image 1"
-            width={300}
-            height={200}
-            className="w-full h-auto rounded-lg shadow-lg"
-            object-cover="true object-cover h-48 w-full"
-        />
-      </div>
+      </RevealOnScroll>
     </section>
   );
 };
