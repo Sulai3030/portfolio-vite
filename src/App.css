@@ -43,3 +43,14 @@
 .read-the-docs {
   color: #888;
 }
+img,
+svg,
+video,
+canvas,
+audio,
+iframe,
+embed,
+object {
+  display: inline;
+  vertical-align: middle;
+}
