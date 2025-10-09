@@ -6,19 +6,20 @@ export const Navbar = ({ menuOpen, setMenuOpen }) => {
   }, [menuOpen]);
 
   return (
-    <nav className="sticky top-0">
-      <div className="max-w-5xl mx-auto px-4 bg-[#ef1456]">
+    <nav className="sticky top-0 inset-x-0 z-20 mr-[calc 100%-100vw] flex h-14 items-center justify-between relative px-4 py-3">
+      <div className="max-w-7xl mx-auto px-4 bg-[#ef1456] sm:px-6 lg:px-8">
         <img
           className="inline max-w-full object-scale-down h-18 w-18 float-left"
           alt="logo"
           src="/s.png"
         />
-
         <div className="flex justify-between items-center h-16">
           <a href="#home" className="font-mono text-xl font-bold text-gray-300">
-            Sulai<span className="text-[#2d81ff]">.Sivadel</span>
+            Sulai
+            <span className="bg-gradient-to-r from-[#2c80ff] to-[#44B9DB] bg-clip-text text-transparent leading-right">
+              .Sivadel
+            </span>
           </a>
-
           <div
             className="w-7 h-5 relative cursor-pointer z-40 md:hidden"
             onClick={() => setMenuOpen((prev) => !prev)}

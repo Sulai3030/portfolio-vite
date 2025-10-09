@@ -1,46 +1,15 @@
-// src/components/sections/Home.jsx
-import { RevealOnScroll } from "../RevealOnScroll";
 
-export const Home = () => {
+
+export const Photos = () => {
   return (
-    <section
-      id="home"
-      className="min-h-screen flex items-center justify-center relative"
-    >
-      <RevealOnScroll>
-        <div className="text-left z-10 px-4">
-          <div className="flex justify-center mb-6"></div>
-            <img
-              src="src/assets/Logo2.svg"
-              alt="Logo"
-              className="w-32 h-32 md:w-40 md:h-40"
-            />
-            <h5>boy</h5>
-          </div>
-          <h1 className="text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-blue-500 to-[#71D7F5] bg-clip-text text-transparent leading-right">
-            Hi, I'm Sulai
-          </h1>
-          <p className="text-gray-400 text-lg mb-8 max-w-lg mx-auto">
-            I’m a full-stack developer who loves crafting clean, scalable web
-            applications. My goal is to build solutions that offer both
-            exceptional performance and a delightful user experience.
-          </p>
-          <div className="flex justify-center space-x-4">
-            <a
-              href="#projects"
-              className="bg-blue-500 text-white py-3 px-6 rounded font-medium transition relative overflow-hidden hover:-translate-y-0.5 hover:shadow-[0_0_15px_rgba(59,130,246,0.4)]"
-            >
-              View Projects
-            </a>
-            <a
-              href="#contact"
-              className="border border-blue-500/50 text-blue-500 py-3 px-6 rounded font-medium transition-all duration-200 hover:-translate-y-0.5 hover:shadow-[0_0_15px_rgba(59,130,246,0.2)], hoverbg-blue-500/10)]"
-            >
-              Contact Me
-            </a>
-          </div>
+    <section id="photos" className="py-24 px-4 relative">
+      {""}
+      <div className="bg-white rounded-lg overflow-hidden">
+        <div className="container mx-auto max-w-5xl">
+          <h2>Photos</h2>
+          <img class="h-48 w-96 object-cover ..." src="/img/mountains.jpg" />
         </div>
-      </RevealOnScroll>
+      </div>
     </section>
   );
-};
+}
