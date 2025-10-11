@@ -9,9 +9,12 @@ const Blog = () => {
 
   const content = `(This piece appeared on New York Minute Magazine.com in 2014 ©, all rights reserved. ) 2014 is the future.
 
-In the past, we had two ways to get news: television and the newspaper. Now, with the proliferation of the Internet, satellites, social networking sites, and 24-hour so-called “news channels,” we can get news anytime and anywhere. No more waiting for the six o’clock nightly news. So long, Tom Brokaw!
+<div>
+<p>In the past, we had two ways to get news: television and the newspaper. Now, with the proliferation of the Internet, satellites, social networking sites, and 24-hour so-called “news channels,” we can get news anytime and anywhere. No more waiting for the six o’clock nightly news. So long, Tom Brokaw!
 
-And as the cliché goes, the world is getting smaller. And flatter. Or so we think, prior to seeing The Square, the Oscar-nominated documentary by Jehane Noujaim (Startup.com, The Control Room).
+And as the cliché goes, the world is getting smaller. </div></p>
+
+And flatter. Or so we think, prior to seeing The Square, the Oscar-nominated documentary by Jehane Noujaim (Startup.com, The Control Room).
 
 The Square follows the political revolution in Egypt that started in Tahrir Square as a daring demonstration against the entrenched dictatorship led for 40 years by General Hosni Mubarak. The revolution originally called for a fair minimum wage (sound familiar?) and an end to Egypt's 40-year state of emergency.
 
