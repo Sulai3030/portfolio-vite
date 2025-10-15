@@ -27,7 +27,7 @@ export const Navbar = ({ menuOpen, setMenuOpen }) => {
             &#9776;
           </div>
 
-          <div className="hidden md:flex items-center space-x-8">
+          <div className="hidden md:flex items-center space-x-8 px-8">
             <a href="#home" className="text-gray-300 hover:text-white">
               Home
             </a>

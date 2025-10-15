@@ -12,7 +12,7 @@ const Blog = () => {
 <div>
 <p>In the past, we had two ways to get news: television and the newspaper. Now, with the proliferation of the Internet, satellites, social networking sites, and 24-hour so-called “news channels,” we can get news anytime and anywhere. No more waiting for the six o’clock nightly news. So long, Tom Brokaw!
 
-And as the cliché goes, the world is getting smaller. </div></p>
+And as the cliché goes, the world is getting smaller. </div>
 
 And flatter. Or so we think, prior to seeing The Square, the Oscar-nominated documentary by Jehane Noujaim (Startup.com, The Control Room).
 

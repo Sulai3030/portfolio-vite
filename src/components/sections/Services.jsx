@@ -20,7 +20,7 @@ const Services = () => {
           </p>
           <img
             className="h-48 w-full object-cover"
-            src="public/codesnipppet.jpg"
+            src="src/codesnipppet.jpg"
             alt="code snippet"
             width={300}
             height={200}
