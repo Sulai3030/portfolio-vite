@@ -45,9 +45,7 @@ const Services = () => {
             <p className="text-1xl font-bold mb-8 bg-gradient-to-r from-blue-500 to-[#71D7F5] bg-clip-text text-transparent text-left">
               Healthcare Copy Writing:
             </p>
-            <p className="text-1xl text-gray-300 text-left mb-6 no-underline hover:underline break-all ...">
-              <br />
-              <ul className="list-disc list-inside text-left">
+              <ul className="list-disc list-inside text-left no-underline hover:underline">
                 <li>
                   <a href="https://blackhealthmatters.com/lauren-lee-talks-kidney-disease-breakthroughs/">
                     Lauren Lee talks kidney disease breakthroughs
@@ -81,7 +79,7 @@ const Services = () => {
                   </a>
                 </li>
               </ul>
-            </p>
+
             <p className="text-1xl font-bold mb-8 bg-gradient-to-r from-blue-500 to-[#71D7F5] bg-clip-text text-transparent text-left">
               Health Policy Writing and Reporting:
             </p>
