@@ -9,16 +9,18 @@ export const Home = () => {
     >
       <RevealOnScroll>
         <div className="text-left z-10 px-4">
-          <h1 className="text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-blue-500 to-[#71D7F5] bg-clip-text text-transparent leading-right">
-            Hi, I'm Sulai
+          <h1 className="text-5xl font-bold mb-6 bg-gradient-to-r from-blue-500 to-[#71D7F5] bg-clip-text text-transparent text-center">
+            Hi, I'm Sulai!
           </h1>
-          <p className="text-gray-400 text-lg mb-8 max-w-lg mx-auto">
-            I’m a full-stack developer who loves crafting clean, scalable web
-            applications.</p>
-            <p className="space-y-4">My goal is to build solutions that offer both
-            exceptional performance and a delightful user experience.
+          <p className="text-gray-300 text-2xl mb-6 max-w-lg mx-auto">
+            I’m a full-stack web developer who loves crafting clean, scalable web
+            applications.
           </p>
-          <div className="flex justify-center space-x-4">
+          <p className="text-gray-300 text-1xl space-y-8 mb-8 max-w-lg mx-auto">
+            My goal is to build solutions that offer both exceptional
+            performance and a delightful user experience.
+          </p>
+          <div className="flex justify-center space-x-2">
             <a
               href="#projects"
               className="bg-blue-500 text-white py-3 px-6 rounded font-medium transition relative overflow-hidden hover:-translate-y-0.5 hover:shadow-[0_0_15px_rgba(59,130,246,0.4)]"

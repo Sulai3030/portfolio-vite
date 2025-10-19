@@ -1,64 +1,123 @@
-import { useState } from "react";
+const posts = [
+  {
+    id: 1,
+    title: "New York Minute Magazine article",
+    href: "#",
+    description:
+      "This piece appeared on New York Minute Magazine.com in 2014 ©, all rights reserved. 2014 is the future.",
 
-const Blog = () => {
-  const [isExpanded, setIsExpanded] = useState(false)
+    date: "Mar 16, 2020",
+    datetime: "2020-03-16",
+    category: { title: "Marketing", href: "#" },
+    author: {
+      name: "Michael Foster",
+      role: "Co-Founder / CTO",
+      href: "#",
+      imageUrl:
+        "https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
+    },
+  },
+  {
+    id: 2,
+    title: "How to use search engine optimization to drive sales",
+    href: "#",
+    description:
+      "Optio cum necessitatibus dolor voluptatum provident commodi et. Qui aperiam fugiat nemo cumque.",
+    date: "Mar 10, 2020",
+    datetime: "2020-03-10",
+    category: { title: "Sales", href: "#" },
+    author: {
+      name: "Lindsay Walton",
+      role: "Front-end Developer",
+      href: "#",
+      imageUrl:
+        "https://images.unsplash.com/photo-1517841905240-472988babdf9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
+    },
+  },
+  {
+    id: 3,
+    title: "Improve your customer experience",
+    href: "#",
+    description:
+      "Cupiditate maiores ullam eveniet adipisci in doloribus nulla minus. Voluptas iusto libero adipisci rem et corporis. Nostrud sint anim sunt aliqua. Nulla eu labore irure incididunt velit cillum quis magna dolore.",
+    date: "Feb 12, 2020",
+    datetime: "2020-02-12",
+    category: { title: "Business", href: "#" },
+    author: {
+      name: "Tom Cook",
+      role: "Director of Product",
+      href: "#",
+      imageUrl:
+        "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
+    },
+  },
+];
 
-  const toggleExpansion = () => {
-    setIsExpanded(prevState => !prevState)
-  }
-
-  const content = `(This piece appeared on New York Minute Magazine.com in 2014 ©, all rights reserved. ) 2014 is the future.
-
-<div>
-<p>In the past, we had two ways to get news: television and the newspaper. Now, with the proliferation of the Internet, satellites, social networking sites, and 24-hour so-called “news channels,” we can get news anytime and anywhere. No more waiting for the six o’clock nightly news. So long, Tom Brokaw!
-
-And as the cliché goes, the world is getting smaller. </div>
-
-And flatter. Or so we think, prior to seeing The Square, the Oscar-nominated documentary by Jehane Noujaim (Startup.com, The Control Room).
-
-The Square follows the political revolution in Egypt that started in Tahrir Square as a daring demonstration against the entrenched dictatorship led for 40 years by General Hosni Mubarak. The revolution originally called for a fair minimum wage (sound familiar?) and an end to Egypt's 40-year state of emergency.
-
-What mushroomed from the incident was a gathering of millions, and I do mean millions, of people who no longer wanted to be repressed and suffer from the crushing of their hearts and minds on a daily basis.
-
-In this movie, we meet people as diverse as Khalid Abdalla, star of the Oscar-nominated film The Kite Runner, who is a British-educated actor and son of two longtime advocates for political change in Egypt. We also meet Ahmed Hassan, the heart of the movie. Hassan plays a young disaffected man who longs for freedom so fervently that you can see the honest emotions in his face.
-
-We meet Ramy Essam, a musician who becomes the voice of the revolution. In the early days of the revolution, Essam was kidnapped by the secret police and savagely beaten. We also see Magdy Ashour, who is a member of the Muslim Brotherhood and a true believer in returning to the Quran as the basis of the new constitution.
-
-In this nail-biting documentary, we watch as Ashour is tested in his allegiance when the Brotherhood co-opts the Square for its own political gain. Once they assume the presidency, the group ignores the freedoms of those who so earnestly fought for them in the Square.
-
-Each one of these characters is emblematic of the range of personalities and opinions that inhabit Egypt. We watch as they discuss fervently among each other what it means to truly be free. It is fascinating to watch a country be reborn, and that is just what happens in The Square. We watch the creation of a nation, something we have never witnessed on a scale such as this in post-modern times.
-
-To the viewers’ fascination, despite all of the technology available to the Egyptian people, the conflict takes place in the Square face-to-face. Nothing disrupts the honest dialogue between people who really want to know what their nation should be, and what it means to live in a democracy that they have created themselves. This is their country. Watch this documentary. It will change the way you view freedom.
-The Square is streaming exclusively on Netflix and is still in theaters.
-
-`;
-
-  const shownContent = isExpanded ? content : `${content.substring(0, 250)}...`
-
-
+export default function Example() {
   return (
-    <>
-      <section
-        id="blog"
-        className="min-h-screen flex items-center justify-center py-20"
-      >
-        <div className="bg-black h-screen flex items-center justify-center">
-          <div className="p-7 w-5/6">
-            <h2 className="text-3xl font-bold mb-8 bg-gradient-to-r from-blue-600 to-[#71D7F5] bg-clip-text text-transparent text-center">
-              Blog and Writing Samples
+    <section
+      id="blog"
+      className="min-h-screen flex items-center justify-center py-20"
+    >
+      <div className="bg-black text-gray-300 text-left mb-6 py-24 sm:py-32">
+        <div className="mx-auto max-w-7xl px-6 lg:px-8">
+          <div className="mx-auto max-w-2xl lg:mx-0">
+            <h2 className="text-4xl font-semibold tracking-tight text-pretty text-gray-300 sm:text-5xl">
+              Further Writing Samples
             </h2>
-            <p className="text-left">{shownContent}</p>
-            <button
-              className="mt-3 bg-blue-600 text-white py-2
-        px-4 rounded hover:bg-blue-600"
-              onClick={toggleExpansion}
-            >
-              {isExpanded ? "Read Less" : "Read More"}
-            </button>
+            <p className="mt-2 text-lg/8 text-gray-300">
+              Here are further samples of my paid writing from the web.
+            </p>
+          </div>
+          <div className="mx-auto mt-10 grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 border-t border-gray-200 pt-10 sm:mt-16 sm:pt-16 lg:mx-0 lg:max-w-none lg:grid-cols-3">
+            {posts.map((post) => (
+              <article
+                key={post.id}
+                className="flex max-w-xl flex-col items-start justify-between"
+              >
+                <div className="flex items-center gap-x-4 text-xs text-gray-300">
+                  <time dateTime={post.datetime} className="text-gray-500">
+                    {post.date}
+                  </time>
+                  <a
+                    href={post.category.href}
+                    className="relative z-10 rounded-full bg-gray-50 px-3 py-1.5 font-medium text-gray-600 hover:bg-gray-100"
+                  >
+                    {post.category.title}
+                  </a>
+                </div>
+                <div className="group relative grow">
+                  <h3 className="mt-3 text-lg/6 font-semibold text-text-gray-300 group-hover:text-gray-600">
+                    <a href={post.href}>
+                      <span className="absolute inset-0" />
+                      {post.title}
+                    </a>
+                  </h3>
+                  <p className="mt-5 line-clamp-3 text-sm/6 text-gray-300">
+                    {post.description}
+                  </p>
+                </div>
+                <div className="relative mt-8 flex items-center gap-x-4 justify-self-end">
+                  {/*<img
+                    alt=""
+                    src={post.author.imageUrl}
+                    className="size-10 rounded-full bg-gray-text-gray-300"
+                  />*/}
+                  <div className="text-sm/6 text-gray-300">
+                    <p className="font-semibold text-gray-text-gray-300">
+                      <a href={post.author.href}>
+                        <span className="absolute inset-0" />
+                        {post.author.name}
+                      </a>
+                    </p>
+                    <p className="text-gray-300">{post.author.role}</p>
+                  </div>
+                </div>
+              </article>
+            ))}
           </div>
         </div>
-      </section>
-    </>
+      </div>
+    </section>
   );
-};
-export default Blog;
+}

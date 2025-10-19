@@ -44,7 +44,7 @@ export const Projects = () => {
             <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_4px_20px_rgba(59,130,246,0.1)] transition">
               <h3 className="text-xl font-bold text-leftmb-2">
                 <a href="https://www.johndavidwest.com/">
-                  John David West: Social Media + Photography
+                  John David West.com
                 </a>
               </h3>
               <p className="text-sm font-bold text-leftmb-2">
@@ -55,7 +55,7 @@ export const Projects = () => {
                 Photographer who thrives on the art of content creation.
               </p>
               <p className="text-gray-400 text-left mb-4">
-                With eight years of experience in social media management,
+                With tenyears of experience in social media management,
                 social strategy, and campaign execution that converts fans to
                 customers by cultivating communities and creating quality
                 multimedia content across platforms.
