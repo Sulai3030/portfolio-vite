@@ -13,6 +13,7 @@ import { Footer } from "./components/sections/Footer";
 import Services from "./components/sections/Services";
 import Blog from "./components/sections/Blog";
 
+
 function App() {
   const [isLoaded, setIsLoaded] = useState(false);
   const [menuOpen, setMenuOpen] = useState(false);

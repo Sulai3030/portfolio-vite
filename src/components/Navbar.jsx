@@ -1,4 +1,7 @@
 import React, { useState, useEffect } from "react";
+import { Menu, MenuButton, MenuItem, MenuItems } from "@headlessui/react";
+import { ChevronDownIcon } from "@heroicons/react/20/solid";
+
 
 export const Navbar = ({ menuOpen, setMenuOpen }) => {
   useEffect(() => {
@@ -14,7 +17,6 @@ export const Navbar = ({ menuOpen, setMenuOpen }) => {
           src="/s.png"
         />
         <div className="flex justify-between items-center h-16">
-          
           <div
             className="w-7 h-5 relative cursor-pointer z-40 md:hidden"
             onClick={() => setMenuOpen((prev) => !prev)}
@@ -36,8 +38,7 @@ export const Navbar = ({ menuOpen, setMenuOpen }) => {
               Photos
             </a>
             <a href="#blog" className="text-gray-300 hover:text-white">
-              Blog
-            </a>
+              Blog            </a>
             <a href="#contact" className="text-gray-300 hover:text-white">
               Contact
             </a>
