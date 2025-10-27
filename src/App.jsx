@@ -1,17 +1,18 @@
 import { useState } from "react";
-import "./App.css";
 import { LoadingScreen } from "./components/LoadingScreen";
 import { Navbar } from "./components/Navbar";
-import "./index.css";
 import { MobileMenu } from "./components/MobileMenu";
 import { Home } from "./components/sections/Home";
 import { About } from "./components/sections/About";
 import { Projects } from "./components/sections/Projects";
-//import { Photos } from "./components/sections/Photos.jsx";
 import { Contact } from "./components/sections/Contact";
 import { Footer } from "./components/sections/Footer";
 import Services from "./components/sections/Services";
 import Blog from "./components/sections/Blog";
+import React from "react";
+import ImageGallery from "./components/sections/ImageGallery.jsx";
+import "./App.css";
+import "./index.css";
 
 
 function App() {
@@ -32,7 +33,7 @@ function App() {
         <About />
         <Projects />
         <Services />
-        {/* <Photos /> */}
+        <ImageGallery />
         <Blog />
         <Contact />
         <Footer />
