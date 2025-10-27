@@ -5,7 +5,7 @@ export const MobileMenu = ({ menuOpen, setMenuOpen }) => {
   return (
     <nav
       className={`
-        text-center sm:text-left fixed top-0 left-0 w-full bg-[rgba(10,10,10,0.8)] z-40 flex flex-col items-center max-w-screen-xl  flex-wrap justify-between mx-auto p-4
+        text-center sm:text-left fixed top-0 left-0 w-full bg-[rgba(10,10,10,0.8)] z-40 flex flex-col items-center max-w-(--breakpoint-xl)  flex-wrap justify-between mx-auto p-4
         px-2 sm:px-6 lg:px-8
         transition-all duration-300 ease-in-out
          inset-y-0

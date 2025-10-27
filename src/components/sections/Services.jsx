@@ -11,10 +11,10 @@ const Services = () => {
     >
       <RevealOnScroll>
         <div className="max-w-3xl mx-auto px-4">
-          <h2 className="text-3xl font-bold mb-8 bg-gradient-to-r from-blue-600 to-[#71D7F5] bg-clip-text text-transparent text-center">
+          <h2 className="text-3xl font-bold mb-8 bg-linear-to-r from-blue-600 to-[#71D7F5] bg-clip-text text-transparent text-center">
             Website Development and Profesional Writing Services
           </h2>
-          <p className="font-bold mb-8 bg-gradient-to-r  text-center text-base ">
+          <p className="font-bold mb-8 bg-linear-to-r  text-center text-base ">
             {/* Describe your services here */}I develop and maintain user
             focused websites, as well as write and edit content.
           </p>
@@ -38,11 +38,11 @@ const Services = () => {
           </div>
           <br />
           <div className="max-w-3xl mx-auto px-4 space-y-4 mt-8">
-            <h2 className="text-2xl font-bold mb-8 bg-gradient-to-r from-blue-600 to-[#71D7F5] bg-clip-text text-transparent text-center">
+            <h2 className="text-2xl font-bold mb-8 bg-linear-to-r from-blue-600 to-[#71D7F5] bg-clip-text text-transparent text-center">
               Below are links to satisfied customers of my copywriting and
               content creation services:
             </h2>
-            <p className="text-1xl font-bold mb-8 bg-gradient-to-r from-blue-500 to-[#71D7F5] bg-clip-text text-transparent text-left">
+            <p className="text-1xl font-bold mb-8 bg-linear-to-r from-blue-500 to-[#71D7F5] bg-clip-text text-transparent text-left">
               Healthcare Copy Writing:
             </p>
               <ul className="list-disc list-inside text-left no-underline hover:underline">
@@ -80,7 +80,7 @@ const Services = () => {
                 </li>
               </ul>
 
-            <p className="text-1xl font-bold mb-8 bg-gradient-to-r from-blue-500 to-[#71D7F5] bg-clip-text text-transparent text-left">
+            <p className="text-1xl font-bold mb-8 bg-linear-to-r from-blue-500 to-[#71D7F5] bg-clip-text text-transparent text-left">
               Health Policy Writing and Reporting:
             </p>
             <p className="text-1xl text-gray-300 text-left mb-6">
@@ -98,7 +98,7 @@ const Services = () => {
                 </a>
               </li>
             </p>
-            <p className="text-1xl font-bold mb-8 bg-gradient-to-r from-blue-500 to-[#71D7F5] bg-clip-text text-transparent text-left">
+            <p className="text-1xl font-bold mb-8 bg-linear-to-r from-blue-500 to-[#71D7F5] bg-clip-text text-transparent text-left">
               Technical Writing
             </p>
             <p className="text-1xl text-gray-300 text-left mb-6">
@@ -115,7 +115,7 @@ const Services = () => {
                 </a>
               </li>
             </p>
-            <p className="text-1xl font-bold mb-8 bg-gradient-to-r from-blue-500 to-[#71D7F5] bg-clip-text text-transparent text-left">
+            <p className="text-1xl font-bold mb-8 bg-linear-to-r from-blue-500 to-[#71D7F5] bg-clip-text text-transparent text-left">
               Educational Writing
             </p>
             <p className="text-1xl text-gray-300 text-left mb-6">
@@ -129,7 +129,7 @@ const Services = () => {
                 </a>
               </li>
             </p>
-            <p className="text-1xl font-bold mb-8 bg-gradient-to-r from-blue-500 to-[#71D7F5] bg-clip-text text-transparent text-left">
+            <p className="text-1xl font-bold mb-8 bg-linear-to-r from-blue-500 to-[#71D7F5] bg-clip-text text-transparent text-left">
               Film Reporting and Criticism
             </p>
             <p className="text-1xl text-gray-300 text-left mb-6">
