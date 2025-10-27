@@ -12,7 +12,7 @@ export const Navbar = ({ menuOpen, setMenuOpen }) => {
     <nav className="max-w-7xl bg-[#59040C] sticky top-0 inset-x-0 z-20 mr-[calc 100%-100vw] flex h-14 items-center justify-between relative px-4 py-3 text-center sm:text-left">
       <div className="mx-auto px-4 sm:px-6 lg:px-12">
         <img
-          className="inline max-w-full object-scale-down h-18 w-18 float-left"
+          className="inline max-w-full object-scale-down h-14 w-14 float-left"
           alt="logo"
           src="/s.png"
         />
