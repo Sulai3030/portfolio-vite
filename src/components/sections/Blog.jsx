@@ -12,7 +12,7 @@ const ReadMore = () => {
   };
 
   //Sample content to show hide
-  const content = `This is the show you need to be watching right now. All your friends are watching it and you don’t want to be left out.
+  const content = `True Detective s1: This is the show you need to be watching right now. All your friends are watching it and you don’t want to be left out.
 
 There are not a lot of shows nowadays that you really need to see in real time, and very few shows catch the zeitgeist anymore, what with our super short attention spans. But True Detective, the new atmospheric show from HBO, is one of those shows.
 
