@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { Menu, MenuButton, MenuItem, MenuItems } from "@headlessui/react";
 import { ChevronDownIcon } from "@heroicons/react/20/solid";
-
+import Logo from "public/Images/s.webp";
 
 export const Navbar = ({ menuOpen, setMenuOpen }) => {
   useEffect(() => {
@@ -13,8 +13,9 @@ export const Navbar = ({ menuOpen, setMenuOpen }) => {
       <div className="mx-auto px-4 sm:px-6 lg:px-12">
         <img
           className="inline max-w-full object-scale-down h-14 w-14 float-left"
-          alt="logo"
-          src="/s.png"
+          alt="optimized logo"
+          src={Logo}
+          loading="lazy"
         />
         <div className="flex justify-between items-center h-16">
           <div
@@ -38,7 +39,8 @@ export const Navbar = ({ menuOpen, setMenuOpen }) => {
               Photos
             </a>
             <a href="#blog" className="text-gray-300 hover:text-white">
-              Blog            </a>
+              Blog{" "}
+            </a>
             <a href="#contact" className="text-gray-300 hover:text-white">
               Contact
             </a>
