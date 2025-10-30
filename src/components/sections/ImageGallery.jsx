@@ -1,7 +1,6 @@
 import { RevealOnScroll } from "../RevealOnScroll";
 import React from "react";
 
-
 const images = [
   {
     id: 1,

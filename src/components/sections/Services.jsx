@@ -1,6 +1,7 @@
 import React from 'react';
 //import { useState } from "react";
 import { RevealOnScroll } from "../RevealOnScroll";
+import codesnippet from "@/codesnippet.webp";
 
 
 const Services = () => {
@@ -20,7 +21,7 @@ const Services = () => {
           </p>
           <img
             className="h-48 w-full object-cover"
-            src="src/codesnipppet.jpg"
+            src={codesnippet}
             alt="code snippet"
             width={300}
             height={200}
@@ -45,40 +46,40 @@ const Services = () => {
             <p className="text-1xl font-bold mb-8 bg-linear-to-r from-blue-500 to-[#71D7F5] bg-clip-text text-transparent text-left">
               Healthcare Copy Writing:
             </p>
-              <ul className="list-disc list-inside text-left no-underline hover:underline">
-                <li>
-                  <a href="https://blackhealthmatters.com/lauren-lee-talks-kidney-disease-breakthroughs/">
-                    Lauren Lee talks kidney disease breakthroughs
-                  </a>
-                </li>
-                <li>
-                  <a href="https://blackhealthmatters.com/is-there-a-light-at-the-end-of-the-dark-tunnel-of-kidney-disease-in-children/">
-                    Is there light at the end of the tunnel of kidney Disease?
-                    An interview with Dr. Gbadegesin
-                  </a>
-                </li>
-                <li>
-                  <a href="https://blackhealthmatters.com/working-with-your-doctor-when-you-have-kidney-disease-empowering-yourself-to-be-an-advocate-for-you">
-                    Working with your doctor. Empowering Yourself to be an
-                    Advocate for Yourself
-                  </a>
-                </li>
-                <li>
-                  <a href="https://blackhealthmatters.com/kidney-disease/what-is-fsgs/">
-                    What is FSGS?
-                  </a>
-                </li>
-                <li>
-                  <a href="https://blackhealthmatters.com/the-truth-about-kidney-disease/">
-                    The Truth About Kidney Disease.
-                  </a>
-                </li>
-                <li>
-                  <a href="https://blackhealthmatters.com/how-can-i-be-in-a-clinical-trial/">
-                    How Can I Be In A Clinical Trial?
-                  </a>
-                </li>
-              </ul>
+            <ul className="list-disc list-inside text-left no-underline hover:underline">
+              <li>
+                <a href="https://blackhealthmatters.com/lauren-lee-talks-kidney-disease-breakthroughs/">
+                  Lauren Lee talks kidney disease breakthroughs
+                </a>
+              </li>
+              <li>
+                <a href="https://blackhealthmatters.com/is-there-a-light-at-the-end-of-the-dark-tunnel-of-kidney-disease-in-children/">
+                  Is there light at the end of the tunnel of kidney Disease? An
+                  interview with Dr. Gbadegesin
+                </a>
+              </li>
+              <li>
+                <a href="https://blackhealthmatters.com/working-with-your-doctor-when-you-have-kidney-disease-empowering-yourself-to-be-an-advocate-for-you">
+                  Working with your doctor. Empowering Yourself to be an
+                  Advocate for Yourself
+                </a>
+              </li>
+              <li>
+                <a href="https://blackhealthmatters.com/kidney-disease/what-is-fsgs/">
+                  What is FSGS?
+                </a>
+              </li>
+              <li>
+                <a href="https://blackhealthmatters.com/the-truth-about-kidney-disease/">
+                  The Truth About Kidney Disease.
+                </a>
+              </li>
+              <li>
+                <a href="https://blackhealthmatters.com/how-can-i-be-in-a-clinical-trial/">
+                  How Can I Be In A Clinical Trial?
+                </a>
+              </li>
+            </ul>
 
             <p className="text-1xl font-bold mb-8 bg-linear-to-r from-blue-500 to-[#71D7F5] bg-clip-text text-transparent text-left">
               Health Policy Writing and Reporting:
