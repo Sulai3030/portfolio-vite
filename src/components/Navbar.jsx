@@ -1,7 +1,11 @@
 import React, { useState, useEffect } from "react";
 import { Menu, MenuButton, MenuItem, MenuItems } from "@headlessui/react";
 import { ChevronDownIcon } from "@heroicons/react/20/solid";
-import Logo from "public/Images/s.webp";
+import Logo from "../Images/s.webp";
+
+
+
+
 
 export const Navbar = ({ menuOpen, setMenuOpen }) => {
   useEffect(() => {
@@ -10,9 +14,9 @@ export const Navbar = ({ menuOpen, setMenuOpen }) => {
 
   return (
     <nav className="max-w-7xl bg-[#59040C] sticky top-0 inset-x-0 z-20 mr-[calc 100%-100vw] flex h-14 items-center justify-between relative px-4 py-3 text-center sm:text-left">
-      <div className="mx-auto px-4 sm:px-6 lg:px-12">
+      <div className="mx-auto px-4 sm:px-6 lg:px-12 max-w-7xl flex items-center h-16">
         <img
-          className="inline max-w-full object-scale-down h-14 w-14 float-left"
+          className="inline max-w-full object-scale-down h-14 w-auto float-left"
           alt="optimized logo"
           src={Logo}
           loading="lazy"
