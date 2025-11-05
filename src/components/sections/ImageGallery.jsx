@@ -1,36 +1,45 @@
 import { RevealOnScroll } from "../RevealOnScroll";
 import React from "react";
+import sunset from "../../Images/sunset43025.webp";
+import lake01 from "../../Images/lake01.webp";
+import woods01 from "../../Images/woods.webp";
+import summer_storm from "../../Images/summerstorm.webp";
+import ship_on_horizon from "../../Images/ship_on_horizon.webp";
+import sunset02 from "../../Images/sunset02.webp";
+
+
+
 
 const images = [
   {
     id: 1,
-    src: "./src/Images/54446266337_930e366f33_c.jpg",
-    alt: "Beach Sunset",
+    src: sunset,
+    alt: "Instagram Sunset",
   },
   {
     id: 2,
-    src: "./src/Images/54447368223_12e6553954_c.jpg",
-    alt: "Mountain View",
+    src: lake01,
+    alt: "Lake01",
   },
   {
     id: 3,
-    src: "./src/Images/54484194432_b38c16ac61_c.jpg",
-    alt: "City Lights",
+    src: woods01,
+    alt: "Woods_sunset",
   },
   {
     id: 4,
-    src: "./src/Images/54486557502_146131e926_c.jpg",
-    alt: "Forest Path",
+    src: summer_storm,
+    alt: "summer_storm",
   },
   {
     id: 5,
-    src: "./src/Images/sunset43025.jpg",
-    alt: "Ocean Waves",
+    src: ship_on_horizon,
+    alt: "ship on horizon",
   },
   {
     id: 6,
-    src: "./src/Images/54487597704_6725f269b7_c.jpg",
-    alt: "Desert Dunes",
+    src: sunset02,
+    alt: "summer_sunset",
   },
 ];
 
@@ -42,7 +51,9 @@ const Photos = () => {
     >
       <RevealOnScroll>
         <div className="max-w-6xl mx-auto p-6">
-          <h2 className="text-3xl font-bold text-center mb-8">Image Gallery</h2>
+          <h2 className="text-3xl font-bold text-center mb-8 text-[#2BC3F0]">
+            Image Gallery
+          </h2>
 
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
             {images.map((image) => (

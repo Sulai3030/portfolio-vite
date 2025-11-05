@@ -9,9 +9,9 @@ export const Projects = () => {
     >
       <RevealOnScroll>
         <div className="max-w-5xl mx-auto px-4">
-          <h2 className="text-3xl font-bold mb-8 bg-linear-to-r from-blue-500 to-cyan-400 bg-clip-text text-transparent text-center">
+          <p className="text-3xl font-bold mb-8 text-[#2BC3F0] text-center">
             Featured Projects
-          </h2>
+          </p>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition">
               <h3 className="text-xl font-bold mb-2">PartyDash.com</h3>
@@ -43,9 +43,7 @@ export const Projects = () => {
             </div>
             <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_4px_20px_rgba(59,130,246,0.1)] transition">
               <h3 className="text-xl font-bold text-leftmb-2">
-                <a href="https://www.johndavidwest.com/">
-                  John David West.com
-                </a>
+                <a href="https://www.johndavidwest.com/">John David West.com</a>
               </h3>
               <p className="text-sm font-bold text-leftmb-2">
                 Fullstack Engineer
@@ -55,10 +53,10 @@ export const Projects = () => {
                 Photographer who thrives on the art of content creation.
               </p>
               <p className="text-gray-400 text-left mb-4">
-                With tenyears of experience in social media management,
-                social strategy, and campaign execution that converts fans to
-                customers by cultivating communities and creating quality
-                multimedia content across platforms.
+                With tenyears of experience in social media management, social
+                strategy, and campaign execution that converts fans to customers
+                by cultivating communities and creating quality multimedia
+                content across platforms.
               </p>
               <div className="flex flex-wrap gap-2 mb-4">
                 {["JavaScript", "HTML", "CSS", "Photoshop"].map((tech, key) => (
@@ -191,10 +189,10 @@ export const Projects = () => {
                     understandable materials for the general public.
                   </li>
                   <li className="list-disc">
-                    Performed QA on the New York Medicaid Choice
-                    website to prevent new errors. Copywrote internal and
-                    external communications materials to promote and support
-                    executive managers.{" "}
+                    Performed QA on the New York Medicaid Choice website to
+                    prevent new errors. Copywrote internal and external
+                    communications materials to promote and support executive
+                    managers.{" "}
                   </li>
                   <li className="list-disc">
                     Performed quality assurance on the New York Medicaid Choice
@@ -206,9 +204,9 @@ export const Projects = () => {
                   </li>
                   <li className="list-disc">
                     Managed professional recording sessions with Native speakers
-                    of six languages to create new healthcare plan material that could be
-                    easily understood by hearing and developmentally-impaired
-                    citizens of New York State.{" "}
+                    of six languages to create new healthcare plan material that
+                    could be easily understood by hearing and
+                    developmentally-impaired citizens of New York State.{" "}
                   </li>
                 </p>
                 <div className="flex flex-wrap gap-2 mb-4">

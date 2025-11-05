@@ -38,30 +38,33 @@ This show is awesome. Flat out. Watch it.
 
   return (
     <>
-    <section
-      id="blog"
-      className="min-h-screen flex items-center justify-center py-20"
-    >
-      <div className="bg-black h-screen flex items-center justify-center text-left">
-        <div className=" p-7 w-5/6">
-          <div>
-            <div className="text-4xl font-bold mb-4 text-white">Blog Posts</div>
+      <section
+        id="blog"
+        className="min-h-screen flex items-center justify-center py-20"
+      >
+        <div className="bg-black h-screen flex items-center justify-center text-left">
+          <div className=" p-7 w-5/6">
             <div>
-              <p className="text-base mb-4 text-white hover:underline">
-                <a href="https://www.linkedin.com/company/new-york-minute-magazine/posts/?feedView=all">These are writings that I did that were previously published on the web. The rights belong to the holders.</a>
-              </p>
+              <div className="text-4xl font-bold mb-4 text-[#2BC3F0]">Blog Posts</div>
+              <div>
+                <p className="text-base mb-4 text-white hover:underline">
+                  <a href="https://www.linkedin.com/company/new-york-minute-magazine/posts/?feedView=all">
+                    These are writings that I did that were previously published
+                    on the web. The rights belong to the holders.
+                  </a>
+                </p>
+              </div>
             </div>
+            <p>{shownContent}</p>
+            <button
+              className="mt-3 bg-blue-500 text-white py-2 px-4 rounded hover:bg-blue-600"
+              onClick={toggleExpansion}
+            >
+              {isExpanded ? "Read Less" : "Read More"}
+            </button>
           </div>
-          <p>{shownContent}</p>
-          <button
-            className="mt-3 bg-blue-500 text-white py-2 px-4 rounded hover:bg-blue-600"
-            onClick={toggleExpansion}
-          >
-            {isExpanded ? "Read Less" : "Read More"}
-          </button>
         </div>
-      </div>
-    </section>
+      </section>
     </>
   );
 };

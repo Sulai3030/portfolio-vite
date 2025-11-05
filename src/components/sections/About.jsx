@@ -22,11 +22,11 @@ export const About = () => {
       className="min-h-screen flex items-center justify-center py-20"
     >
       <RevealOnScroll>
-        <div className="max-w-3xl mx-auto px-4">
-          <h2 className="text-3xl font-bold mb-8 bg-linear-to-r from-[#001E99] to-[#6DA0E3] bg-clip-text text-transparent text-center">
-            About Me
-          </h2>
+        <div className="max-w-3xl mx-auto px-4 bg-[#191919">
           <div className="rounded-xl p-8 border border-white/10 hover:-translate-y-1 transition-all">
+            <p className="text-3xl font-bold mb-8 text-[#2BC3F0] text-center">
+              About Me
+            </p>
             <p className="text-gray-300 text-left mb-6 ">
               I am a Frontend Developer who is passionate about building great
               user experiences.
