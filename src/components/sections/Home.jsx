@@ -9,7 +9,7 @@ export const Home = () => {
     >
       <RevealOnScroll>
         <div className="text-left z-10 px-4">
-          <p className="text-gray-300 text-3xl mb-6 max-w-lg mx-auto">
+          <p className="text-[#2BC3F0] text-3xl mb-6 max-w-lg mx-auto">
             Hi! I'm Sulai!
           </p>
           <p className="text-gray-300 text-2xl mb-6 max-w-lg mx-auto">
