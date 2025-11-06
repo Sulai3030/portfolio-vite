@@ -80,7 +80,6 @@ const Services = () => {
                 </a>
               </li>
             </ul>
-
             <p className="text-1xl font-bold mb-8 bg-linear-to-r from-blue-500 to-[#71D7F5] bg-clip-text text-transparent text-left">
               Health Policy Writing and Reporting:
             </p>
