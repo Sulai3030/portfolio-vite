@@ -8,7 +8,7 @@ import { About } from "./components/sections/About";
 import { Projects } from "./components/sections/Projects";
 import { Contact } from "./components/sections/Contact";
 import { Footer } from "./components/sections/Footer";
-import Services from "./components/sections/Services";
+import Services from "./components/sections/Services.jsx";
 import Blog from "./components/sections/Blog";
 import React from "react";
 import ImageGallery from "./components/sections/ImageGallery.jsx";
