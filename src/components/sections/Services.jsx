@@ -46,7 +46,7 @@ const Services = () => {
             <p className="text-1xl font-bold mb-8 bg-linear-to-r from-blue-500 to-[#71D7F5] bg-clip-text text-left">
               Healthcare Copy Writing:
             </p>
-            <ul className="list-disc list-inside text-left no-underline hover:underline">
+            <ul className="list-disc list-inside text-left no-underline hover:underline hover:[#F0E12B]">
               <li>
                 <a href="https://blackhealthmatters.com/lauren-lee-talks-kidney-disease-breakthroughs/">
                   Lauren Lee talks kidney disease breakthroughs

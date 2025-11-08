@@ -51,7 +51,7 @@ const Photos = () => {
       <RevealOnScroll>
         <div className="max-w-6xl mx-auto p-6">
           <h2 className="text-3xl font-bold text-center mb-8 text-[#2BC3F0]">
-            Photos Gallery
+            Photo Gallery
           </h2>
           <p className="text-base font-bold text-leftmb-2">
             I am an amateur photographer and here are some of my beginner
