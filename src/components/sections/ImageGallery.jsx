@@ -49,7 +49,7 @@ const Photos = () => {
       className="min-h-screen flex items-center justify-center py-20"
     >
       <RevealOnScroll>
-        <div className="max-w-6xl mx-auto p-6">
+        <div className="max-w-6xl mx-auto p-6 bg-[#131417]">
           <h2 className="text-3xl font-bold text-center mb-8 text-[#2BC3F0]">
             Photo Gallery
           </h2>

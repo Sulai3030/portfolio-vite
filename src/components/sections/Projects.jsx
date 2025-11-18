@@ -8,7 +8,8 @@ export const Projects = () => {
       className="min-h-screen flex items-center justify-center py-20"
     >
       <RevealOnScroll>
-        <div className="max-w-5xl mx-auto px-4">
+        <div className="max-w-5xl mx-auto px-4 bg-[#131417]">
+          <div className="rounded-xl p-8 border bg-[#131417] border-white/10 hover:-translate-y-1 transition-all">
           <p className="text-3xl font-bold mb-8 text-[#2BC3F0] text-center">
             Featured Projects
           </p>
@@ -231,7 +232,8 @@ export const Projects = () => {
             </div>
           </div>
         </div>
-      </RevealOnScroll>
+      </div>
+     </RevealOnScroll>
     </section>
   );
 };

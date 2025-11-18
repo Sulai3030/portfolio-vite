@@ -22,8 +22,8 @@ export const About = () => {
       className="min-h-screen flex items-center justify-center py-20"
     >
       <RevealOnScroll>
-        <div className="max-w-3xl mx-auto px-4 bg-[#191919">
-          <div className="rounded-xl p-8 border border-white/10 hover:-translate-y-1 transition-all">
+        <div className="max-w-5xl mx-auto px-4 bg-[#22C4F4">
+          <div className="rounded-xl p-8 border bg-[#131417] border-white/10 hover:-translate-y-1 transition-all">
             <p className="text-3xl font-bold mb-8 text-[#2BC3F0] text-center">
               About Me
             </p>
@@ -76,7 +76,7 @@ export const About = () => {
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-8">
-            <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 transition-all">
+            <div className="bg-[#131417] p-6 rounded-xl border border-white/10 hover:-translate-y-1 transition-all">
               <h3 className="text-xl font-bold mb-4">🏫 Education</h3>
               <ul className="list-disc list-inside text-gray-300 text-left space-y-2">
                 <li>
@@ -92,7 +92,7 @@ export const About = () => {
                 <li>Bachelor of Arts - Emory University, Atlanta,GA 2001</li>
               </ul>
             </div>
-            <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 transition-all">
+            <div className="bg-[#131417] p-6 rounded-xl border border-white/10 hover:-translate-y-1 transition-all">
               <h3 className="text-xl font-bold mb-4">💼 Work Experience</h3>
               <div className="space-y-4 text-gray-300">
                 <div className="text-left text-lg">

@@ -42,10 +42,13 @@ This show is awesome. Flat out. Watch it.
         id="blog"
         className="min-h-screen flex items-center justify-center py-20"
       >
-        <div className="bg-black h-screen flex items-center justify-center text-left">
+        <RevealOnScroll>
+        <div className="bg-[#131417] h-screen flex items-center justify-center text-left">
           <div className=" p-7 w-5/6">
             <div>
-              <div className="text-4xl font-bold mb-4 text-[#2BC3F0]">Blog Posts</div>
+              <div className="text-4xl font-bold mb-4 text-[#2BC3F0]">
+                Blog Posts
+              </div>
               <div>
                 <p className="text-base mb-4 text-white hover:underline">
                   <a href="https://www.linkedin.com/company/new-york-minute-magazine/posts/?feedView=all">
@@ -64,7 +67,8 @@ This show is awesome. Flat out. Watch it.
             </button>
           </div>
         </div>
-      </section>
+    </RevealOnScroll>
+    </section>
     </>
   );
 };
